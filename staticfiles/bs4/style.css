@@ -1,0 +1,4981 @@
+body {
+    overflow-x: hidden;
+    
+}
+
+
+.dentrodoblog {
+    width: 100vw;
+    justify-content: center;
+    background-image: url(../imagem/Dentrodoblog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.button2x {
+    display: inline-block;
+    margin-top: 3vh;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #41A68E;
+    border: 2px solid #41A68E;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10vw;
+    height: auto;
+    font-family: 'GlacialIndifferenceRegular';
+    line-height: 5vh; /* Centraliza verticalmente */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.button2x::before {
+    content: '';
+    flex: 1;
+}
+
+.button2x::after {
+    content: '';
+    flex: 1;
+}
+
+.button2 {
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 0vh;
+    margin-bottom: 3vh;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #41A68E;
+    border: 2px solid #41A68E;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 8vw;
+    height: auto;
+    text-align: center;
+    font-family: 'GlacialIndifferenceRegular';
+    line-height: 5vh; /* Centraliza verticalmente */
+    bottom: 0;
+}
+
+.fixed-bottom-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    margin-left: auto; /* Centralizar horizontalmente */
+    margin-right: auto; /* Centralizar horizontalmente */
+    font-size: 1.2rem;
+    color: #41A68E;
+    border: 2px solid #41A68E;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    outline: none;
+}
+
+
+.fixed-bottom-left:hover {
+    color: #41A68E;
+    text-decoration: none;
+}
+
+.button2x:hover {
+    color: #41A68E;
+    text-decoration: none;
+}
+
+.card-body{
+    height: 80vh;
+}
+
+.button2:hover {
+    text-decoration: none;
+}
+
+.button2b {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #41A68E;
+    background-color: #f8f8f8;
+    border: 2px solid #41A68E;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    text-align-last: center;
+    font-family: 'GlacialIndifferenceRegular';
+    outline: none;
+}
+
+.button2b:focus {
+    outline: none;
+}
+
+.button22 {
+    display: inline-block;
+    margin-top: 3px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #41A68E;
+    border: 3px solid #41A68E;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    text-align-last: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.button2:hover {
+    color: #41A68E;
+    background-color: white;
+}
+
+.card-title {
+    margin-top: 2vh;
+    font-size: 1.7rem;
+    color: #41A68E;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.card-title2 {
+    margin-top: 2vh;
+    font-size: 1.7rem;
+    color: #41A68E;
+    font-family: 'League Spartan', sans-serif;
+}
+.card-titlee {
+    margin-top: 5vh;
+    font-size: 1.7rem;
+    color: #41A68E;
+    text-align: center;
+}
+
+.card-text {
+    color: #41A68E;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.ajudablog{
+    width: 18vw;
+    font-size: 1rem;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.card-textt {
+    color: #41A68E;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 27%;
+    width: 45%;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.paraotexto {
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.redesSociais a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    width: 4vw;
+    margin: 0 0.5vw 4vh 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 0.2rem solid white;
+    transition: all 0.5s ease;
+}
+
+.redesSociais a:hover {
+    color: #41A68E;
+    background-color: white;
+}
+
+.redesSociais a i {
+    font-size: 2em;
+    align-items: center;
+    margin-top: 0.4vh;
+}
+
+.face {
+    margin-right: 0.2vw;
+}
+
+.xdx {
+    margin-top: 5vh;
+}
+
+.xx{
+    font-size: 1.5rem;
+    margin-top: 5vh;
+}
+
+.rodape {
+    display: inline-flex;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.test {
+    background-color: #18745B;
+    height: 11vh;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.test2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: -18vw;
+}
+
+.agora {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.div1 {
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/resultados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+}
+
+.blog {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../imagem/blog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.envios {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/envios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.envios input {
+    width: 37vw;
+    height: 7vh;
+    font-family: 'GlacialIndifferenceRegular';
+    outline: none;
+}
+
+.formulario {
+    margin-right: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.envios input::placeholder {
+    color: #18745B;
+}
+
+.envios textarea {
+    height: 30vh;
+    width: 37vw;
+    font-family: 'GlacialIndifferenceRegular';
+    outline: none;
+    resize: none;
+}
+
+.envios textarea::placeholder {
+    color: #18745B;
+}
+
+.div11 {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9vh;
+    height: 40vh;
+    margin-right: -2vw;
+}
+
+.div111 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(../imagem/quem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.div3 {
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/testeee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.div45 {
+    height: 10vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 8vw;
+    margin-top: 9vh;
+}
+
+.slider-frame {
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slider-frame img{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.slider {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    box-shadow: 10px 5px 30px hsla(0, 0%, 23%, 0.664);
+}
+
+.slides {
+    width: 400%;
+    height: 80vh;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 50vw;
+    height: 80vh;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 48vw;
+    display: flex;
+    justify-content: end;
+    margin-top: 71vh;
+}
+
+.manual-btn {
+    width: 1.5vw;
+    height: 3vh;
+    border: 0.3rem solid #41A68E;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 18vw;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 1.45vw;
+}
+
+.manual-btn:hover {
+    background-color: #41A68E;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 0.3rem solid #41A68E;
+    width: 1.5vw;
+    height: 3vh;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 18vw;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 48vw;
+    margin-top: 71vh;
+    display: flex;
+    justify-content: end;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 1.45vw;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #41A68E;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #41A68E;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #41A68E;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: #41A68E;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+    background-color: #41A68E;
+}
+
+.slider-frame .fotos {
+    display: flex;
+    width: 500%;
+    animation: slide 30s infinite;
+}
+
+.slider-frame .fotos img {
+    width: 20%;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+    15% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: -100%;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -200%;
+    }
+    55% {
+        margin-left: -200%;
+    }
+    60% {
+        margin-left: -300%;
+    }
+    80% {
+        margin-left: -300%;
+    }
+    85% {
+        margin-left: -400%;
+    }
+    100% {
+        margin-left: -400%;
+    }
+}
+
+.divSer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.5vw;
+    margin-right: 4vw;
+}
+
+.divSer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-left: 4vw;
+    margin-right: 1.5vw;
+}
+
+.titulomodal {
+    display: flex;
+    background-color: #18745B;
+    width: 22vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    color: white;
+    font-size: 2rem;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.texto1 {
+    color: white;
+    font-size: 1.5em;
+    width: 35vw;
+    margin-left: -2vw;
+    text-indent: 4vw;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.texto1a {
+    color: white;
+    font-size: 1.5em;
+    width: 35vw;
+    margin-left: -2vw;
+    text-indent: 4vw;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.texto33, .texto33x3, .texto33a {
+    display: flex;
+    color: #41A68E;
+    font-weight: bold;
+    top: 0px;
+    justify-content: center;
+    margin-top: 5vh;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.5rem;
+}
+
+
+.texto3334 {
+    display: flex;
+    color: #41A68E;
+    font-weight: bold;
+    top: 0px;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.05rem;
+}
+
+.itensdeservico1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.itensdeservico2, .itensdeservico3, .itensdeservico4, .itensdeservico5, .itensdeservico6, .itensdeservico7, .itensdeservico8, .itensdeservico21, .itensdeservico22, .itensdeservico23, .itensdeservico24, .itensdeservico25, .itensdeservico26{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto4 {
+    display: flex;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    color: #18745B;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 4.1rem;
+}
+
+.texto4b {
+    margin-top: -25vh;
+    display: flex;
+    font-size: 4.1rem;
+    color: #18745B;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.texto44 {
+    color: white;
+    margin-bottom: 5vh;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3.5rem;
+}
+
+.texto44b {
+    color: white;
+    margin-bottom: 10vh;
+    font-size: 4em;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.textott, .textott128, .textott12, .textottp, .textott1, .textottx, .textottc1, .textottc2, .textottc3,.textottc4, .textottcc1, .textottcc2, .textottcc3, .textottcv1 {
+    color: black;
+    width: 22vw;
+    margin-top: 6vh;
+    font-size: 1.25rem;
+    text-align: justify;
+    word-break: break-all;
+    font-family: 'GlacialIndifferenceRegular';
+    margin-left: 5vw;
+    margin-right: 3.8vw; /* Para centralizar horizontalmente */
+}
+.textottc2{
+    margin-top: 5vh;
+}
+.textott128{
+    margin-top: 5vh;
+}
+.textottcv1{
+    margin-top: 6.5vh ;
+}
+
+.textott1 {
+    margin-top: 4vh;
+}
+
+.textott12{
+    margin-top: 6vh;
+    font-size: 1.2rem;
+}
+
+nav ul {
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    background: #343a40;
+}
+
+.active_nav {
+    background: #18745bb7;
+}
+
+.addinicio {
+    border-radius: 0.1rem;
+    background-color: #41A68E;
+}
+
+#inicio:hover {
+    background-color: #41A68E;
+}
+
+#quem:hover {
+    background-color: #41A68E;
+}
+
+#serv:hover {
+    background-color: #41A68E;
+}
+
+#contat:hover {
+    background-color: #41A68E;
+}
+
+#blog:hover {
+    background-color: #41A68E;
+}
+  
+.opcao  {
+    width: 80vw ;
+    height: auto ;
+}
+
+.s1  {
+    width: 8vw ;
+    font-size: 1rem ;
+} 
+.bg-modal {
+    width: 90vw;
+    height: 80vh;
+    position: fixed;
+    margin-top: 10vh;
+    left: 5vw;
+    z-index: 2;
+    top: -310vh;
+    transition: 350ms;
+    border-radius: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-modal .bg-image, .bg-modal3 .bg-image,.bg-modal2 .bg-image {
+    background-color: white;
+    background-size: 80%;
+    background-position: center center;
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.bg-modal2 {
+    width: 90vw;
+    height: 80vh;
+    position: fixed;
+    margin-top: 10vh;
+    left: 5vw;
+    z-index: 2;
+    top: -310vh;
+    transition: 350ms;
+    border-radius: 0.1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg-modal3 {
+    width: 90vw;
+    height: 80vh;
+    position: fixed;
+    margin-top: 10vh;
+    left: 5vw;
+    z-index: 2;
+    top: -310vh;
+    transition: 350ms;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcao {
+    width: 22vw;
+    height: 48vh;
+    cursor: pointer;
+}
+
+.opcaooo, .opcaooo2, .opcaooo3, .opcaooo22, .opcaooox, .opcaoool, .opcaoooc, .opcaoooll, .opcaoools, .opcaooo33, .opcaooop, .opcaooolc1, .opcaooolc2, .opcaooolc3 {
+    display: flex;
+    width: 22vw;
+    height: 45vh;
+    cursor: pointer;
+    margin-top: 4.2vh;
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    box-shadow: 10px 5px 30px hsl(180, 1%, 63%);
+    border-radius: 5px;
+}
+
+.opcaooo33, .opcaooox, .opcaooop{
+    margin-top: 3.9vh;
+}
+
+.opcaooo2 {
+    margin-top: 1.7vh;
+}
+
+.opcaooo22{
+    margin-top: 3.6vh;
+}
+
+.opcaooo3 {
+    margin-top: 2.5vh;
+}
+
+.close2 {
+    font-size: 2.5rem;
+    transition: 350ms;
+    cursor: pointer;
+    position: absolute;
+    top: 0vh;
+    right: 10vw;
+    display: flex;
+    border: none; /* Remove a borda */
+    background-color: rgba(0, 0, 255, 0);
+    color: #41A68E;
+    outline: none;
+}
+
+.close2:focus {
+    outline: none; /* Remove a borda de foco */
+}
+
+.s1 {
+    display: inline-block;
+    width: 10vw;
+    height: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #fff;
+    color: #41A68E;
+    border-radius: 0.1rem;
+    box-shadow: 2px 3px 0 rgba(0, 34, 8, 0.329);
+    cursor: pointer;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    outline: none; /* Remove a borda de foco */
+    border: 1px solid #41A68E;
+}
+
+.s1:hover {
+    color: #fff;
+    background-color: #41A68E;
+}
+
+.s1:focus {
+    outline: none; /* Remove a borda de foco */
+}
+
+.ss {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: white;
+    color: #41A68E;
+    border: 0px;
+    box-shadow: 0.4vh 0.6vh 0 rgba(0, 34, 8, 0.329);
+    cursor: pointer;
+}
+
+.ss:hover {
+    color: white;
+    background-color: #41A68E;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #41a68e8e;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    background-color: #18745B;
+    height: 50vh;
+    width: 100vw;
+}
+
+.rowblog {
+    margin-left: -2vw;
+    display: grid;
+    grid-template-columns: repeat(3, 32vw);
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 10vh;
+}
+
+.rowblog2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.rowwblog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.postagem {
+    margin-right: 1vw;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logonome {
+    margin-top: -25vh;
+    width: 22vw;
+    height:15vh;
+}
+
+.logodaflorar {
+    display: flex;
+    margin-left: 2vw;
+}
+
+.sps {
+    margin-top: 2vh;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.historia {
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.hist {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
+.hist h10 {
+    margin: 0;
+    font-size: 6em;
+}
+
+.hist p {
+    margin: 0;
+    font-size: 2em;
+}
+
+.algo {
+    border-bottom: 0.4vh solid #eeeeee;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemblog {
+    height: auto;
+}
+
+.imagemblogd{
+    height: 49vh;
+    width: 22.2vw;
+}
+
+.sliderr {
+    width: 60vw;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.sliderr3 {
+    width: 60vw;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.sliderrr {
+    width: 60vw;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.botoesservico {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4vh;
+}
+
+.div112 {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.div1122 {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.div1123 {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.activee {
+    display: block;
+}
+
+.activee3 {
+    display: block;
+}
+
+.activeee {
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+
+    .bg-modal {
+        position: fixed;
+        margin-top: 10vh;
+        z-index: 2;
+        top: -310vh;
+        transition: 350ms;
+        border-radius: 0.1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-modal .bg-image, .bg-modal3 .bg-image,.bg-modal2 .bg-image {
+        height: 38vh;
+        width: 90vw;
+        border-radius: 5px;
+        margin-left: 3vw;
+      }
+    .close2{
+        right: 4vw;
+        top: 19vh;
+    }
+    .itensdeservico1 {
+        margin-bottom: 3vh;
+        top: 30vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .itensdeservico2, .itensdeservico3, .itensdeservico4, .itensdeservico5, .itensdeservico6, .itensdeservico7, .itensdeservico8, .itensdeservico21, .itensdeservico22, .itensdeservico23, .itensdeservico24, .itensdeservico25, .itensdeservico26{
+        margin-bottom: 3vh;
+        top: 28vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .botoesservico{
+        position: absolute;
+        margin-bottom: 1vh;
+        margin-top: 30vh;
+    }
+    /* Adicione essa classe para centralizar a modal na vertical */
+    .slider-frame img{
+        width: 100vw;
+        height: 25vh;
+    }
+    .slider-frame{
+        height: 25vh;
+        width: 100vw;
+    }
+    .slider{
+        margin-top: -5vh;
+        height: 17vh;
+        width: 45vw;
+    }
+    .div111, .div3, .div1, .blog, .envios{
+        height: 28vh;
+        width: 100vw;
+    }
+    .blog{
+        height: 45vh;
+    }
+    .div111{
+        height: 30vh;
+    }
+    .div3{
+        height: 38vh;
+    }
+    .envios{
+        height: 35vh;
+    }
+    .div11, .slide img{
+        width: 45vw;
+        height: 17vh;
+    }
+    .texto1, .texto1a{
+        margin-left: 1vw;
+        width: 40vw;
+        font-size: 0.65rem;
+    }
+    .texto1{
+        margin-top: 0vh;
+    }
+    .texto44, .texto4, .texto4b, .hist h10, .texto44b{
+        font-size: 1.9rem;
+    }
+    .texto4b{
+        margin-top: -7vh;
+        margin-bottom: 0vh;
+    }
+    .texto44{
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-50%);
+        margin-top: -25vh;
+    }
+    .titulomodal{
+        font-size: 1rem;
+    }
+    .hist p{
+        font-size: 0.6rem;
+        width: 30vw;
+    }
+    .hist{
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .opcao{
+        width: 28vw;
+        height: 15vh;
+    }
+    .titulomodal{
+        width: 28vw;
+        height: 7vh;
+    }
+    .texto{
+        font-size: 1em;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 12vh;
+        width: 25vw;
+    }
+    .rowwblog img{
+        height: 40vh;
+        width: 80vw;
+    }
+    .card-title, .card-title2{
+        margin-bottom: 0;
+        font-size: 0.61rem ;
+        width: 25vw;
+    }
+    .card .mobile-spacing{
+        padding: 0.5rem;
+    }
+    .envios input {
+        width: 50vw;
+        height: 2vh;
+        font-size: 0.5rem;
+        margin-top: 0vh;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -0.7vh;
+    }
+    .envios .formulario input[type="submit"] {
+        position: relative;
+        top: -1vh;
+      }
+    .envios textarea{
+        width: 50vw;
+        height: 10vh;
+        font-size: 0.5rem;
+    }
+    .ajudablog{
+        margin-top: -2vh;
+        font-size: 0.5rem;
+        width: 25vw;
+    }
+    .button2{
+        margin-left: 1.5vw;
+        width: 13vw;
+        margin-top: -55vh;
+        margin-bottom: 2vh;
+        font-size: 0.5rem;
+        height: 2vh;
+        line-height: 1.5vh;
+    }
+    .button2b{
+        font-size: 1rem;
+    }
+    .texto4{
+        margin-top: 6vh;
+        margin-bottom: 2vh;
+    }
+    .texto44b{
+        margin-top: 0vh;
+        margin-bottom: 2vh;
+    }
+    .logonome {
+        margin-top: -14.5vh;
+        width: 30vw;
+        height:6vh;
+    }
+    .algo{
+        margin-top: -5vh;
+        width: 45vw;
+        font-size: 0.8rem;
+        border-bottom: 0.2vh solid #eeeeee;
+    }
+    .sps{
+        width: 45vw;
+        font-size: 0.55rem;
+        margin-top: 0vh;
+    }
+    .redesSociais{
+        margin-left: -2vw;
+        margin-top: -2.5vh;
+    }
+    .algo, .sps{
+        margin-left: -2vw;
+    }
+    .face{
+        margin-right: 1vw;
+    }
+    .redesSociais a{
+        width: 6vw;
+        height: 3vh;
+        border: 0.15rem solid white;
+        margin-bottom: 1vh;
+        margin-top: 1.5vh;
+    }
+    .redesSociais a i {
+        font-size: 0.8rem;
+    }
+    #footer{
+        width: 100vw;
+        height: 20vh;
+    }
+    .xx{
+        font-size: 1rem;
+        margin-top: 0.9vh;
+    }
+    .manual-navigation, .navigation-auto{
+        margin-top: 18vh;
+    }
+    .manual-btn, .navigation-auto div{
+        width: 2vw;
+        height: 1.4vh;
+        border: 0.1rem solid #41A68E;
+    }
+    .ss {
+        margin-top: -3vh;
+    }
+    .navbar .navbar-nav .nav-item {
+        padding: 0vh;
+    }
+    .navbar.test {
+        background-color: transparent;
+    } 
+    .navbar.test .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='6' x2='27' y2='6'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='14' x2='27' y2='14'/%3E%3Cline stroke='white' stroke-width='2' x1='3' y1='22' x2='27' y2='22'/%3E%3C/svg%3E");
+        margin-top:-6vh ;
+        margin-right: -2vw;
+    }
+    .navbar-brand img{
+        width:30vw;
+        height:8vh;
+        margin-top:-1.5vh ;
+    }
+    .navbar.test .navbar-toggler {
+        font-size: 2rem;
+        transform: scale(1.5);
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-20%);
+    }
+    .navbar.test .navbar-toggler.open {
+        transform: scale(1.5) rotate(90deg);
+    }
+    .navbar.test .navbar-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-start;
+        height: 110vh;
+        width: 50vw;
+        background-color:#41A68E; /* Cor de fundo personalizada */
+        transition: right 0.3s;
+        
+    }
+    .card{
+        position: static !important;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        margin: 0.1vh 0; /* Adicione um espaçamento vertical entre os elementos */
+        margin-left: 0;
+        font-size: 1.1rem; /* Tamanho da fonte personalizado */
+        text-decoration: none;
+        width: 10vw;
+        flex: 1; /* Distribuir espaço igualmente entre os itens */
+        text-align: center; /* Alinhar o texto no centro horizontal */
+        display: flex;
+        flex-direction: row;
+        justify-content: center; /* Alinhar os itens no centro horizontal */
+    }
+    .navbar.test .navbar-nav .nav-link#inicio {
+        margin-top: 2vh; /* Aumenta a margem superior do item "Início" */
+    }
+    .div112, .div1123, .div1122{
+        height: auto;
+    }
+    .texto33, .texto33x3, .texto33a{
+        font-size: 1.4rem;
+        margin-top: 2vh;
+    }
+    .texto3334{
+        margin-top: 2vh;
+        font-size: 1.3rem;
+    }
+    .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottcv1{
+        width: 30vw;
+        font-size: 0.65rem;
+        margin-left: 10vw;
+        margin-right: -10vw;
+        margin-top: 2vh;
+    }
+    .textottp{
+        width: 30vw;
+        font-size: 0.65rem;
+        margin-left: 9vw;
+        margin-right: -10vw;
+        margin-top: 3.5vh;
+    }
+    .textott12, .textott128, .textott1{
+        font-size: 0.6rem;
+        width: 34vw;
+        margin-left: 11vw;
+    }
+    .textott1{
+        margin-top: 3vh;
+    }
+    .textott128{
+        margin-top: 7vh;
+    }
+    .textottx{
+        font-size: 0.65rem;
+        width: 34vw;
+        margin-left: 5vw;
+        margin-top: 6vh;
+    }
+    .opcaooo, .opcaooo2, .opcaooo22, .opcaooo3, .opcaooox, .opcaoool, .opcaoooll, .opcaoooc, .opcaoools, .opcaooo33, .opcaooop, .opcaooolc1, .opcaooolc2, .opcaooolc3{
+        height: 17vh;
+        width: 30vw;
+        box-shadow: 10px 5px 30px hsl(180, 1%, 63%);
+        border-radius: 0.3rem;
+    }
+    .opcaooo2{
+        margin-bottom:-3vh ;
+    }
+    .opcaooo22{
+        margin-bottom: -6vh;
+    }
+    .opcaooop{
+        margin-top: 5vh;
+    }
+    .opcaoool{
+        margin-top: 0vh;
+    }
+    .opcaoools{
+        margin-top: 1vh;
+    }
+    .opcaoooc{
+        margin-top: -1vh;
+    }
+    .opcaoooll{
+        margin-top: 1vh;
+    }
+    .opcaooox{
+        margin-top: 0vh;
+    }
+    .sliderrr, .sliderr, .sliderr3{
+        height: 40vh;
+        width: 70vw;
+    }
+    .s1{
+        font-size: 1rem;
+        width: auto;
+    }
+    .paraotexto{
+        width: 80vw;
+    }
+    .button2x{
+        width: 20vw;
+    }
+
+}
+@media only screen and (max-width: 380px){
+    .slider-frame, .slider-frame img{
+        width: 103vw;
+        height: 28vh;
+    }
+    .div111{
+        height: 190px;
+    }
+    .div1{
+        height: 200px;
+    }
+    .div111, .div3, .div1, .blog, .envios, #footer{
+        width: 103vw;
+    }
+    .texto1, .texto1a{
+        width: 35vw;
+        font-size: 0.43rem;
+    }
+    .texto44 {
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-48%);
+        margin-top: -155px;
+    }
+    .div11{
+        margin-right: -4vw;
+    }
+    .texto44, .texto4, .texto44b, .texto4b{
+        font-size: 1.5rem;
+    }
+    .manual-navigation, .navigation-auto{
+        margin-top: 18vh;
+        width: 46vw;
+    }
+    .texto{
+        font-size: 0.7rem;
+    }
+    .card-title, .card-title2{
+        font-size: 0.53rem;
+    }
+    .ajudablog{
+        font-size: 0.4rem;
+    }
+    .button2{
+        margin-top: -53vh;
+    }
+    .button2b{
+        font-size: 0.7rem;
+    }
+    .texto4b{
+        margin-top: -6vh;
+        margin-bottom: -2vh;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -10px;
+    }
+    .envios .formulario textarea {
+        margin-top: -3.6px;
+    }
+    .envios .formulario input[type="submit"] {
+        position: relative;
+        top: -13px;
+    }
+    .logonome{
+        margin-top: -145px;
+    }
+    #footer{
+        height: 185px;
+    }
+    .xx{
+        margin-top: 11px;
+    }
+    .texto1, .texto1a{
+        margin-left: 3vw;
+    }
+    .redesSociais a{
+        width: 25px;
+        height: 25px;
+    }
+    .textott, .textottc1, .textottc2, .textottc3, .textottcc1, .textottcc2, .textottcc3, .textottcv1, .textott128, .textottx{
+        font-size: 0.55rem;
+    }
+    .textottcv1{
+        margin-top: 1.2vh;
+    }
+    .textott1{
+        margin-top: 2vh;
+        font-size: 0.55rem;
+    }
+    .textott12{
+        width: 30vw;
+        font-size: 0.5rem;
+        margin-top: 3.5vh;
+        margin-left: 10vw;
+    }
+    .textott128{
+        margin-top: 4vh;
+    }
+    .textott{
+        margin-top: 2.3vh;
+    }
+    .textottcc1, .textottcc3{
+        margin-top: 1vh;
+    }
+    .textottcc2{
+        margin-top: 3vh;
+    }
+    .textottc1{
+        margin-top: 2.2vh;
+    }
+    .textottc2{
+        margin-top: 2.5vh;
+    }
+    .textottc3{
+        margin-top: 1rem;
+    }
+    .textottc4{
+        font-size: 0.53rem;
+        margin-top: 1.1rem;
+    }
+    .textottp{
+        font-size: 0.6rem;
+        margin-top: 1.5vh;
+        margin-left: 10vw;
+    }
+    .texto33{
+        font-size: 1.2rem;
+    }
+    .textottx{
+        margin-top: 2.5vh;
+        margin-left: 10vw;
+        width: 30vw;
+    }
+    .opcaooop{
+        margin-top: 0.5vh;
+    }
+    .texto33x3{
+        font-size: 1.1rem;
+    }
+    .texto33a{
+        font-size: 1.09rem;
+    }
+    .texto3334{
+        font-size: 1rem;
+    }
+    .s1{
+        font-size: 0.8rem;
+    }
+    .opcaooo{
+        margin-top: 0.3vh;
+    }
+    .opcaoool{
+        margin-top: 0.3vh;
+    }
+    .opcaooolc2{
+        margin-top: 0.6vh;
+    }
+    .opcaooolc3{
+        margin-top: -1.1vh;
+    }
+    .opcaoools{
+        margin-top: 0.2rem;
+    }
+    .opcaoooc{
+        margin-top: 0.5vh;
+    }
+    .opcaoooll{
+        margin-top: 0.7vh;
+    }
+    .close2{
+        font-size: 1.8rem;
+        right: -3.5vw;
+        top: 18.5vh;
+    }
+    .opcaooolc1{
+        margin-top: -1.1vh;
+    }
+    .opcaooo33{
+        margin-top: -0.8vh;
+    }
+    .opcaooox{
+        margin-top: -0.8vh;
+    }
+    .opcaooo2{
+        margin-bottom: -1vh;
+    }
+    .opcaooo22{
+        margin-bottom: -2vh;
+    }
+    .opcaooo3{
+        margin-top: 0vh;
+    }
+
+}
+
+@media only screen and (max-width: 365px){
+    .textott, .textott12, .textott1, .textott128, .textottp, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottcv1{
+        width: 32vw;
+        margin-left: 10vw;
+        margin-right: -10vw;
+        margin-top: 2.9vh;
+    }
+    .texto44 {
+        transform: translateX(-46%);
+    }
+    .div45 {
+        margin-left: 7vw;
+        margin-right: 1vw;
+    }
+    .div11{
+        margin-right: 0vw;
+    }
+    .textott1, .textott12, .textott128 {
+        font-size: 0.6rem;
+    }
+    .textottc1{
+        font-size: 0.55rem;
+        margin-top: 2.8vh;
+    }
+    .textottc3, .textottc4{
+        font-size: 0.55rem;
+        margin-top: 2.85vh;
+    }
+    .opcaoooll {
+        margin-top: 0.4vh;
+    }
+    .opcaoooc {
+        margin-top: 0.5vh;
+    }
+    .opcaoools {
+        margin-top: 0.2rem;
+    }
+    .textottc2 {
+        margin-top: 2.7vh;
+    }
+    .opcaoool {
+        margin-top: 0.5vh;
+    }
+    .textottcc1{
+        margin-top: 3.5vh;
+        font-size: 0.5rem;
+    }
+    .textottcc2{
+        margin-top: 4.8vh;
+        font-size: 0.49rem;
+    }
+    .opcaooo {
+        margin-top: 0.4vh;
+    }
+    .textottcc3{
+        font-size: 0.49rem;
+        margin-top: 3.9vh;
+    }
+    .opcaooolc2{
+        margin-top: 2.3vh;
+    }
+    .opcaooolc1 {
+        margin-top: 1.5vh;
+    }
+    .opcaooolc3{
+        margin-top: 1.5vh;
+    }
+    .opcaooo22{
+        margin-bottom: 2.7vh;
+    }
+    .textottp{
+        font-size: 0.55rem;
+        margin-top: 2.8vh;
+    }
+    .opcaooo33{
+        margin-top: 0.5vh;
+    }
+    .opcaooo3{
+        margin-top: -1vh;
+    }
+    .texto1 {
+        margin-top: 4vh;
+    }
+    .slider {
+        margin-top: -1vh;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 14.5vh;
+        width: 46.5vw;
+    }
+    .textottcv1{
+        font-size: 0.55rem;
+        margin-top: 1.7vh;
+    }
+    .opcaooox{
+        margin-top: -0.4vh;
+    }
+    .texto33{
+        font-size: 1.2rem
+    }
+    .texto33x3{
+        font-size: 1.1rem;
+    }
+    .texto33a{
+        font-size: 1.048rem;
+    }
+    .textottx{
+        width: 32vw;
+        margin-top: 2.7vh;
+    }
+    .opcaooop{
+        margin-top: 0.5vh;
+    }
+    .textott12{
+        font-size: 0.5rem;
+        margin-top: 3.9vh;
+    }
+    .texto3334 {
+        font-size: 0.87rem;
+    }
+    .textott128{
+        font-size: 0.53rem;
+        margin-top: 3.5vh;
+    }
+    .textott1{
+        font-size: 0.53rem;
+        margin-top: 1.3vh;
+    }
+    .close2{
+        font-size: 1.7rem;
+        right: -3vw;
+        top: 18.8vh;
+    }
+    .face{
+        margin-right: 0.3vw;
+    }
+    .fixed-bottom-left{
+        font-size: 0.8rem;
+    }
+    .card-title{
+        font-size: 0.5rem;
+    }
+    .ajudablog{
+        font-size: 0.38rem;
+        margin-top: -3vh;
+    }
+    .button2{
+        margin-top: -54vh;
+        line-height: 1.6vh;
+    }
+    .button2x{
+        font-size: 1rem;
+        width: 15vw;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -12px;
+    }
+    .envios .formulario textarea {
+        margin-top: -3px;
+    }
+    .opcaooo2 {
+        margin-bottom: 2.2vh;
+    }
+}
+
+@media only screen and (max-width: 365px) and (min-height: 700px) and (max-height: 800px){
+    .logonome{
+        margin-top: -19.2vh;
+    }
+    .texto1 {
+        margin-top: 1vh;
+    }
+    .close2 {
+        font-size: 1.8rem;
+        top: 18.7vh;
+    }
+    .textott{
+        margin-top: 2.65vh;
+    }
+    .opcaooo {
+        margin-top: 0.5vh;
+    }
+    .textottc1 {
+        margin-top: 3.9vh;
+    }
+    .opcaoools {
+        margin-top: 1.7vh;
+    }
+    .div11{
+        margin-top: 7vh;
+    }
+    .texto33a {
+        font-size: 1.0481rem;
+    }
+    .textottcc1 {
+        margin-top: 4.7vh;
+    }
+    .opcaooolc1 {
+        margin-top: 2.5vh;
+    }
+    .texto44{
+        margin-top: -22.5vh;
+    }
+    .textottcc2 {
+        margin-top: 5vh;
+    }
+    .textottcc3 {
+        margin-top: 4.9vh;
+    }
+    .opcaooolc2 {
+        margin-top: 2.7vh;
+    }
+    .opcaooolc3 {
+        margin-top: 2.5vh;
+    }
+    .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottp, .textottx{
+        font-size: 0.553rem;
+    }
+    .textottc2{
+        margin-top: 3.9vh;
+    }
+    .textottc3{
+        margin-top: 3vh;
+    }
+    .textottc4{
+        margin-top: 4vh;
+    }
+    .opcaoool{
+        margin-top: 1.8vh;
+    }
+    .opcaoooc{
+        margin-top: 0.8vh;
+    }
+    .textottcv1{
+        margin-top: 3.1vh;
+    }
+    .opcaooox{
+        margin-top: 1.4vh;
+    }
+    .opcaooop {
+        margin-top: 2.3vh;
+    }
+    .textottp{
+        margin-top: 4vh;
+    }
+    .textottx{
+        margin-top: 3.8vh;
+    }
+    .opcaoooll {
+        margin-top: 1.7vh;
+    }
+    .textott12{
+        font-size: 0.55rem;
+        margin-top: 3.4vh;
+    }
+    .textott128{
+        font-size: 0.55rem;
+        margin-top: 3.5vh;
+    }
+    .opcaooo2{
+        margin-top: 3.3vh;
+    }
+    .opcaooo22{
+        margin-bottom: 0.6vh;
+    }
+    .textott1{
+        margin-top: 2.5vh;
+    }
+    .opcaooo3{
+        margin-top: 0.4rem;
+    }
+    .opcaooo33 {
+        margin-top: 2vh;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 620px){
+    .texto44, .texto4, .texto4b, .hist h10, .texto44b {
+        font-size: 2.3rem;
+    }
+    .div45{
+        margin-left: 9vw;
+        margin-right: 2vw;
+    }
+    .div1{
+        height: 30vh;
+    }
+    .hist h10{
+        font-size: 3.5rem;
+    }
+    .hist p{
+        font-size: 1rem;
+    }
+    .texto1{
+        margin-top: 0vh;
+    }
+    .div11{
+        margin-top: 11vh;
+    }
+    .texto1, .texto1a{
+        font-size: 0.75rem;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 1.9rem;
+    }
+    .logonome{
+        margin-top: -130px;
+    }
+    .algo{
+        font-size: 1.2rem;
+        margin-top: -4.5vh;
+    }
+    .sps{
+        font-size: 0.7rem;
+    }
+    #footer{
+        height: 20vh;
+    }
+    .card-title, .card-title2{
+        font-size: 0.85rem
+    }
+    .ajudablog{
+        font-size: 0.65rem;
+    }
+    .redesSociais{
+        margin-top: -1vh;
+    }
+    .xx{
+        margin-top: 1.9vh;
+    }
+    .redesSociais a i{
+        font-size: 1rem;
+    }
+    .face{
+        margin-left: 0.1rem;
+    }
+    .manual-navigation, .navigation-auto {
+        width: 46.6vw;
+        margin-top: 14vh;
+    }
+    .close2 {
+        right: -0.9vw;
+        top: 18.8vh;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        margin-left: -0.1vw;
+    }
+    .face{
+        margin-right: 0.5vw;
+    }
+    .texto33, .texto33x3, .texto33a{
+        font-size: 1.73rem;
+    }
+    .textott, .textott1, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottp, .textottx, .textott128, .textottcv1{
+        font-size: 0.9rem;
+    }
+    .textottc4{
+        width: 32vw;
+        margin-top: 2.8vh;
+    }
+    .opcaoooll {
+        margin-top: 1.6vh;
+    }
+    .textottc3{
+        width: 32vw;
+        margin-top: 2.7vh;
+    }
+    .textottc2{
+        width: 32vw;
+        margin-top: 2.9vh;
+    }
+    .textott{
+        margin-top: 3vh;
+        width: 32vw;
+    }
+    .textottc1{
+        width: 32vw;
+        margin-top: 3.9vh;
+    }
+    .opcaooo{
+        margin-top: 0.8vh;
+    }
+    .opcaoools{
+        margin-top: 2.5vh;
+    }
+    .opcaoool {
+        margin-top: 1.5vh;
+    }
+    .opcaoooc{
+        margin-top: 1.6vh;
+    }
+    .textottcc1{
+        width: 32vw;
+        margin-top: 1.7vh;
+    }
+    .textottcc2{
+        margin-top: 3vh;
+    }
+    .textottcc3{
+        width: 32vw;
+        margin-top: 1.8vh;
+    }
+    .opcaooolc2{
+        margin-top: 1.3vh;
+    }
+    .opcaooolc1{
+        margin-top: 0.5vh;
+    }
+    .opcaooolc3{
+        margin-top: 0.5vh;
+    }
+    .textottp{
+        width: 32vw;
+        margin-top: 4vh;
+        margin-left: 10vw;
+        margin-right: -10vw;
+    }
+    .opcaooox{
+        margin-top: 0.5vh;
+    }
+    .textottcv1{
+        width: 32vw;
+        margin-top: 1.8vh;
+        margin-left: 10vw;
+        margin-right: -10vw;
+    }
+    .opcaooo33{
+        margin-top: 2.5vh;
+    }
+    .textottx{
+        width: 32vw;
+        margin-top: 3.9vh;
+        margin-left: 10vw;
+        margin-right: -10vw;
+    }
+    .opcaooop{
+        margin-top: 2.6vh;
+    }
+    .texto3334{
+        font-size: 1.5rem;
+    }
+    .textott12{
+        width: 32vw;
+        margin-left: 10vw;
+        font-size: 0.81rem;
+        margin-top: 4.5vh;
+    }
+    .opcaooo2{
+        margin-bottom: 0.8rem;
+    }
+    .opcaooo22{
+        margin-bottom: 1.8vh;
+    }
+    .textott128{
+        width: 32vw;
+        margin-top: 3.5vh;
+    }
+    .textott1{
+        width: 32vw;
+        margin-top: 0.7vh;
+    }
+    .opcaooo3{
+        margin-top: -0.8vh;
+    }
+}
+@media only screen and (max-width: 330px){
+    .texto1, .texto1a{
+        width: 40vw;
+        font-size: 0.4rem;
+    }
+    .slider-frame, .slider{
+        width: 107vw;
+    }
+    .div111, .div3, .div1, .blog, .envios, #footer{
+        width: 107vw;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        margin-left: 7vw;
+    }
+    .ajudablog{
+        font-size: 0.34rem;
+    }
+    .logonome{
+        margin-top: -148px;
+    }
+    .div11{
+        margin-right: 3.2vw;
+    }
+    .div45 {
+        margin-right: 3vw;
+    }
+    .card-title, .card-title2{
+        font-size: 0.47rem;
+    }
+    .redesSociais a i{
+        font-size: 0.6rem;
+    }
+    .face{
+        margin-left: 0.2rem;
+    }
+    #footer{
+        height: 180px;
+    }
+    .xx{
+        margin-top: 2vh;
+    }
+    .hist p{
+        font-size: 0.55rem;
+    }
+    .texto{
+        font-size: 0.63rem;
+    }
+    .texto44{
+        position: absolute;
+        left: 50vw;
+        transform: translateX(-46.5%);
+        margin-top: -21vh;
+        font-size: 1.3rem;
+    }
+    .button2b{
+        font-size: 0.5rem;
+    }
+    .div111{
+        height: 170px;
+    }
+    .texto33, .texto3334{
+        font-size: 1rem;
+    }
+    .texto33x3{
+        font-size: 0.999rem;
+    }
+    .texto33a{
+        font-size: 0.93rem;
+    }
+    .textott, .textott12, .textott1, .textottc1, .textottc2, .textottc3, .textottc4, .textottp, .textottcv1, .textottx, .textott128, .textottcc1, .textottcc2, .textottcc3{
+        width: 33vw;
+        margin-left: 10vw;
+        font-size: 0.5rem;
+    }
+    .textott{
+        margin-top: 2.5vh;
+    }
+    .opcaooo {
+        margin-top: 0.4vh;
+    }
+    .opcaooox{
+        margin-top: 0.3vh;
+    }
+    .opcaooolc3{
+        margin-top: -0.3vh;
+    }
+    .textottcc2{
+        margin-top: 4.5vh;
+    }
+    .opcaooolc2{
+        margin-top: 1.5vh;
+    }
+    .textottcc3{
+        margin-top: 2.75vh;
+    }
+    .textottcv1{
+        margin-top: 2.8vh;
+    }
+    .textottcc1{
+        margin-top: 2.6vh;
+    }
+    .textottc1{
+        margin-top: 3.5vh;
+    }
+    .textottc2{
+        margin-top: 3.7vh;
+    }
+    .textottc3{
+        margin-top: 3.6vh;
+    }
+    .textottc4{
+        margin-top: 3.6vh;
+    }
+    .opcaoooll {
+        margin-top: 1.2vh;
+    }
+    .opcaoooc {
+        margin-top: 1.2vh;
+    }
+    .face{
+        margin-right: 1vw;
+    }
+    .div11{
+        height: 180px;
+    }
+    .opcaooolc1{
+        margin-top: -0.15vh;
+    }
+    .opcaoools{
+        margin-top: 1.4vh;
+    }
+    .opcaoool {
+        margin-top: 1.2vh;
+    }
+    .textottx{
+        margin-top: 3.5vh;
+    }
+    .opcaooop{
+        margin-top: 1.3vh;
+    }
+    .close2{
+        font-size:1.5rem ;
+        top: 19vh;
+        right: -5vw;
+    }
+    .textott12{
+        margin-top: 3.66vh;
+    }
+    .opcaooo2 {
+        margin-bottom: 2.8vh;
+    }
+    .textott128{
+        margin-left: 10vw;
+        margin-top: 4.5vh;
+    }
+    .textottp{
+        margin-top: 3.7vh;
+    }
+    .opcaooo33{
+        margin-top: 1.1vh;
+    }
+    .button2{
+        line-height: 1.7vh;
+    }
+    .opcaooo22 {
+        margin-bottom: 1.5vh;
+    }
+    .textott1 {
+        margin-top: 1.8vh;
+    }
+    .opcaooo3 {
+        margin-top: -0.7vh;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width:750px){
+    .texto1, .texto1a{
+        font-size: 0.9rem;
+    }
+    .texto1{
+        margin-top: -2vh;
+    }
+    .div111{
+        height: 35vh;
+    }
+    .div11{
+        height: 17vh ;
+    }
+    .slide img{
+        height: 20vh;
+    }
+    .slider{
+        height: 20vh;
+    }
+    .texto44, .texto4, .texto4b, .texto44b {
+        font-size: 2.5rem;
+    }
+    .manual-navigation, .navigation-auto{
+        width: 46.5vw;
+        margin-top: 17vh;
+    }
+    .div1{
+        height: 34vh;
+    }
+    .hist h10{
+        font-size: 3.5rem;
+    }
+    .hist p{
+        font-size: 1.1rem;
+    }
+    .ajudablog{
+        font-size: 0.7rem;
+    }
+    .card-title, .card-title2{
+        font-size: 1rem;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 15vh;
+    }
+    .button2{
+        margin-top: -52vh;
+        margin-left: 0.8vw;
+        font-size: 0.7rem;
+        line-height: 1.6vh;
+    }
+    .logonome{
+        height: 7vh;
+        margin-top: -12.4vh;
+    }
+    .algo{
+        margin-top: -4vh;
+        font-size: 1.5rem;
+    }
+    .redesSociais {
+        margin-top: -1.9vh;
+    }
+    .redesSociais a i{
+        font-size: 1.2rem;
+    }
+    .xx{
+        font-size: 1.2rem;
+    }
+    .face{
+        margin-left: 0.2rem;
+    }
+    .sps{
+        font-size: 0.9rem;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 2rem;
+    }
+    .texto44{
+        margin-top: -30vh;
+    }
+    .texto33, .texto33x3, .texto33a{
+        font-size: 2rem;
+    }
+    .texto3334{
+        font-size: 1.8rem;
+    }
+    .textott, .textott1, .textottc1, .textottc2, .textottc3, .textottc4, .textottp, .textottcv1, .textottx, .textott128, .textottcc1, .textottcc2, .textottcc3{
+        width: 35vw;
+        margin-left: 10vw;
+        font-size: 1.1rem;
+    }
+    .textottc1{
+        margin-top: 2.9vh;
+    }
+    .textottc2{
+        margin-top: 2.9vh;
+    }
+    .textottc3{
+        margin-top: 0.5vh;
+    }
+    .textottc4{
+        margin-top: 1.5vh;
+    }
+    .opcaoooll {
+        margin-top: 0.7vh;
+    }
+    .textott12{
+        margin-top: 5vh;
+        font-size: 0.94rem;
+    }
+    .opcaooo2{
+        margin-bottom: 0.2vh;
+    }
+    .opcaooo22{
+        margin-bottom: -1vh;
+    }
+    .textott1{
+        margin-left: 10vw;
+        font-size: 0.95rem;
+    }
+    .card-titlee{
+        font-size: 2rem;
+        width: 50vw;
+    }
+    .textott1 {
+        margin-top: 3.1vh;
+    }
+    .opcaooo3 {
+        margin-top: 2vh;
+    }
+    .button2x{
+        font-size: 1.1rem;
+        line-height: 3vh;
+    }
+    .paraotexto{
+        width: 70vw;
+    }
+    .textott128{
+        margin-top: 5.9vh;
+        font-size: 0.95rem;
+        margin-left: 10vw;
+    }
+    .textott{
+        margin-top: 2vh;
+    }
+    .opcaooo{
+        margin-top: 0.7vh;
+    }
+    .opcaoool{
+        margin-top: 1.8vh;
+    }
+    .opcaoools {
+        margin-top: 1.8vh;
+    }
+    .textottc3{
+        margin-top: 1.5vh;
+    }
+    .s1{
+        font-size: 1.5rem;
+    }
+    #footer{
+        height: 230px;
+    }
+    .opcaoooc{
+        margin-top: 0.7vh;
+    }
+    .textottcc1{
+        margin-top: 1.7vh;
+    }
+    .opcaooolc1{
+        margin-top: 0.8vh;
+    }
+    .opcaooolc2{
+        margin-top: 1.8vh;
+    }
+    .textottcc2{
+        margin-top: 2.9vh;
+    }
+    .textottcc3{
+        margin-top: 1.7vh;
+    }
+    .opcaooolc3{
+        margin-top: 0.8vh;
+    }
+    .textottp{
+        margin-top: 2.9vh;
+    }
+    .opcaooo33{
+        margin-top: 2vh;
+    }
+    .textottcv1{
+        margin-top: 1.7vh;
+    }
+    .opcaooox{
+        margin-top: 0.9vh;
+    }
+    .textottx{
+        margin-top: 3vh;
+    }
+    .opcaooop{
+        margin-top: 1.9vh;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        margin-left: 0vw;
+    }
+    .close2{
+        font-size: 3rem;
+        top: 18.5vh;
+        right: -0.5vw;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width:850px){
+    .div45{
+        margin-left: 9vw;
+        margin-right: 2vw;
+    }
+    .texto1, .texto1a{
+        font-size: 1rem;
+    }
+    .slider-frame .fotos img, .slider-frame {
+        height: 35vh;
+    }
+    .texto1{
+        margin-top: -3vh;
+    }
+    .div111{
+        height: 35vh;
+    }
+    .slider{
+        height: 20vh;
+    }
+    .slide img{
+        height: 20vh;
+    }
+    .texto44, .texto4, .texto4b, .texto44b {
+        font-size: 3rem;
+    }
+    .manual-navigation, .navigation-auto{
+        width: 46.5vw;
+        margin-top: 17vh;
+    }
+    .navbar.test .navbar-toggler {
+        font-size: 3rem;
+    }
+    .texto{
+        font-size: 1.1rem;
+    }
+    .div1{
+        height: 34vh;
+    }
+    .hist h10{
+        font-size: 3.5rem;
+    }
+    .hist p{
+        font-size: 1.1rem;
+    }
+    .ajudablog{
+        margin-top: -1vh;
+        font-size: 0.8rem;
+    }
+    .card-title, .card-title2{
+        font-size: 1.1rem;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 15vh;
+    }
+    .button2{
+        margin-top: -660px;
+        margin-left: 0.8vw;
+        font-size: 0.7rem;
+        line-height: 1.6vh;
+    }
+    .logonome{
+        height: 7vh;
+        margin-top: -140px;
+    }
+    .algo{
+        margin-top: -4vh;
+        font-size: 1.5rem;
+    }
+    .redesSociais{
+        margin-top: -1.5vh;
+    }
+    .redesSociais a i{
+        font-size: 1.2rem;
+    }
+    .xx{
+        font-size: 1.2rem;
+    }
+    .face{
+        margin-right: 0.5rem;
+        margin-left: 0.3rem;
+    }
+    .sps{
+        font-size: 0.9rem;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 2.5rem;
+    }
+    .texto44{
+        margin-top: -30vh;
+    }
+    .texto33, .texto33x3, .texto33a{
+        font-size: 2.3rem;
+    }
+    .texto3334{
+        font-size: 2rem;
+    }
+    .s1{
+        font-size: 1.7rem;
+    }
+    .opcaooo{
+        margin-top: 0.75vh;
+    }
+    .opcaoool{
+        margin-top: 3vh;
+    }
+    .opcaoooc{
+        margin-top: 3vh;
+    }
+    .opcaoools{
+        margin-top: 2.7vh;
+    }
+    .textottc1{
+        margin-top: 3.5vh;
+    }
+    .textottc2{
+        margin-top: 3.5vh;
+    }
+    .textottc3{
+        margin-top: 4vh;
+    }
+    .textottc4{
+        margin-top: 4vh;
+    }
+    .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1{
+        width: 35vw;
+        font-size: 1.1rem;
+        margin-left: 10vw;
+    }
+    .textott{
+        margin-top: 1.7vh;;
+    }
+    .textottc1{
+        margin-top: 3.2vh;
+    }
+    .textottp{
+        margin-top: 4vh;
+    }
+    .opcaooo33{
+        margin-top: 3vh;
+    }
+    .textottcv1{
+        margin-top: 3vh;
+    }
+    .textottx{
+        margin-top: 4vh;
+    }
+    .opcaooop{
+        margin-top: 3vh;
+    }
+    .opcaoooll{
+        margin-top: 3vh;
+    }
+    .opcaooox{
+        margin-top: 2.3vh;
+    }
+    .textottcc1{
+        margin-top: 3.75vh;
+    }
+    .opcaooolc1{
+        margin-top: 2.8vh;
+    }
+    .textottcc2{
+        margin-top: 4vh;
+    }
+    .textottcc3{
+        margin-top: 3vh;
+    }
+    .opcaooolc2{
+        margin-top: 2.8vh;
+    }
+    .opcaooolc3{
+        margin-top: 2.8vh;
+    }
+    .opcaooo3{
+        margin-top: 1.2vh;
+    }
+    .close2{
+        font-size: 3.5rem;
+        top: 18.6vh;
+        right: -0.9vw;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        margin-left: 0vw;
+    }
+    .textott12{
+        margin-left: 10vw;
+        font-size: 1.09rem;
+        margin-top: 4.6vh;
+    }
+    .opcaooo2{
+        margin-bottom: 0.3vh;
+    }
+    .textott128{
+        margin-left: 10vw;
+        margin-top: 5.5vh;
+    }
+    .opcaooo22{
+        margin-bottom: -1vh;
+    }
+    .textott1{
+        margin-left: 10vw;
+        margin-top: 2vh;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width:790px){
+    .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1 {
+        font-size: 1.2rem;
+    }
+    .slider-frame .fotos img, .slider-frame {
+        height: 30vh;
+    }
+    .div111{
+        height: 40vh;
+    }
+    .texto1 {
+        margin-top: 0vh;
+    }
+    .slider {
+        margin-top: -2vh;
+    }
+    .texto44{
+        margin-top: -33vh;
+    }
+    #footer{
+        height: 250px;
+    }
+    .blog{
+        height: 50vh;
+    }
+    .texto4b{
+        margin-top: -10vh;
+    }
+    .div1 {
+        height: 42vh;
+    }
+    .div3 {
+        height: 42vh;
+    }
+    .button2{
+        margin-top: -500px;
+    }
+    .redesSociais a {
+        height: 4vh;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        height: 45vh;
+    }
+    .texto33, .texto33x3, .texto33a, .texto3334 {
+        margin-top: -1vh;
+    }
+    .texto4 {
+        margin-top: 8vh;
+        margin-bottom: 3vh;
+    }
+    .botoesservico {
+        margin-bottom: -4vh;
+    }
+    .close2 {
+        top: 14.5vh;
+    }
+    .texto33, .texto33x3, .texto33a {
+        font-size: 2.2rem;
+    }
+    .close2 {
+        font-size: 3rem;
+    }
+    .opcaooo, .opcaooo2, .opcaooo22, .opcaooo3, .opcaooox, .opcaoool, .opcaoooll, .opcaoooc, .opcaoools, .opcaooo33, .opcaooop, .opcaooolc1, .opcaooolc2, .opcaooolc3 {
+        height: 22vh;
+    }
+    .opcao {
+        height: 19vh;
+    }
+    .textott {
+        margin-top: -1vh;
+    }
+    .opcaooo {
+        margin-top: -2.5vh;
+    }
+    .opcaoools {
+        margin-top: -0.8vh;
+    }
+    .textottc1 {
+        margin-top: 0.5vh;
+    }
+    .textottc2 {
+        margin-top: 0.6vh;
+    }
+    .opcaoool {
+        margin-top: -1vh;
+    }
+    .textottc3 {
+        margin-top: -0.8vh;
+    }
+    .opcaoooc {
+        margin-top: -2.5vh;
+    }
+    .textottc4 {
+        margin-top: -0.8vh;
+    }
+    .opcaoooll {
+        margin-top: -2.5vh;
+    }
+    .textottcc1 {
+        margin-top: -0.8vh;
+    }
+    .opcaooolc1 {
+        margin-top: -2.5vh;
+    }
+    .textottcc2 {
+        margin-top: 0.5vh;
+    }
+    .opcaooolc2 {
+        margin-top: -1vh;
+    }
+    .textottcc3 {
+        margin-top: -0.8vh;
+    }
+    .opcaooolc3 {
+        margin-top: -2.5vh;
+    }
+    .textottp {
+        margin-top: 0.5vh;
+    }
+    .opcaooo33 {
+        margin-top: -0.5vh;
+    }
+    .textottcv1 {
+        margin-top: -2.2vh;
+    }
+    .opcaooox {
+        margin-top: -3.5vh;
+    }
+    .textottx {
+        margin-top: 0.3vh;
+    }
+    .opcaooop {
+        margin-top: -0.4vh;
+    }
+    .textott12 {
+        font-size: 1.1rem;
+        margin-top: 1vh;
+    }
+    .opcaooo2 {
+        margin-top: 0.5vh;
+        margin-bottom: 0.5vh;
+    }
+    .textott128 {
+        margin-top: 1.5vh;
+    }
+    .opcaooo22 {
+        margin-bottom: 0.5vh;
+        margin-top: 1vh;
+    }
+    .textott1 {
+        font-size: 1.1rem;
+        margin-top: -1vh;
+    }
+    .opcaooo3 {
+        margin-top: -2.5vh;
+    }
+}
+@media only screen and (min-width: 380px) and (max-width:400px){
+    .slider-frame img{
+        width: 100vw;
+        height: 30vh;
+    }
+    .slider{
+        height: 18vh;
+    }
+    .slide img {
+        height: 18vh;
+    }
+    .div45{
+        margin-left: 10vw;
+        margin-right: 3vw;
+    }
+    .slider-frame{
+        height: 30vh;
+        width: 102vw;
+    }
+    .texto44, .texto4, .texto44b, .texto4b{
+        font-size: 1.5rem;
+    }
+    .div111, .div3, .div1, .blog, .envios{
+        width: 102vw;
+    }
+    .texto{
+        font-size: 0.6rem;
+    }
+    .div1{
+        height: 32vh;
+    }
+    .div11{
+        margin-top: 10vh;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 15vh;
+        margin-left: -1.3vw;
+    }
+    .texto1, .texto1a{
+        font-size: 0.5rem;
+    }
+    .div111{
+        height: 220px;
+    }
+    .texto44{
+        margin-top: -24vh;
+    }
+    .button2{
+        margin-top: -50vh;
+    }
+    .card-title, .card-title2{
+        font-size: 0.54rem;
+    }
+    .ajudablog{
+        margin-top: -3.5vh;
+        font-size: 0.43rem ;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 16vh;
+    }
+    .button2b{
+        margin-top: -2vh;
+        font-size: 0.6rem;
+    }
+    .texto4b {
+        margin-top: -6vh;
+        margin-bottom: -2vh;
+    }
+    .logonome{
+        margin-top: -137px;
+        height: 8vh;
+        width: 32vw;
+    }
+    .redesSociais{
+        margin-top: -3vh;
+    }
+    .redesSociais a i{
+        font-size: 0.7rem;
+    }
+    #footer{
+        height: 185px;
+        width: 102vw;
+    }
+    .xx{
+        margin-top: 1.3vh;
+        font-size: 0.9rem;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -1.12vh;
+    }
+    .envios .formulario textarea {
+        margin-top: -0.4vh;
+    }
+    .envios .formulario input[type="submit"] {
+        position: relative;
+        top: -2vh;
+    }
+    .face{
+        margin-left: 1vw;
+    }
+    .texto33, .texto33x3, .texto33a{
+        font-size: 1.1rem;
+    }
+    .texto3334{
+        font-size: 1.05rem;
+    }
+    .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1{
+        width: 35vw;
+        font-size: 0.59rem;
+        margin-left: 10vw;
+    }
+    .textott{
+        margin-top: 2.7vh;
+    }
+    .textottc1{
+        margin-top: 3.5vh;
+    }
+    .textottc2{
+        margin-top: 3.6vh;
+    }
+    .textottc4{
+        margin-top: 2.5vh;
+    }
+    .textottcc1{
+        margin-top: 2.5vh;
+    }
+    .opcaoool {
+        margin-top: 1.5vh;
+    }
+    .textottc3{
+        margin-top: 2.5vh;
+    }
+    .textottcc2{
+        margin-top: 3.5vh;
+    }
+    .textottcc3{
+        margin-top: 2.5vh;
+    }
+    .textottp{
+        margin-top: 3.5vh;
+    }
+    .opcaoooc {
+        margin-top: 0.4vh;
+    }
+    .textottcv1{
+        margin-top: 2.5vh;
+    }
+    .textottx{
+        margin-top: 3.5vh;
+    }
+    .textott12{
+        font-size: 0.52rem;
+        margin-left: 10vw;
+        margin-top: 5.3vh;
+    }
+    .textott1{
+        font-size: 0.57rem;
+        margin-left: 10vw;
+        margin-top: 1.5vh;
+    }
+    .textott128{
+        margin-left: 10vw;
+        font-size: 0.52rem;
+        margin-top: 6.2vh;
+    }
+    .opcaooo3{
+        margin-top: -0.8vh;
+    }
+    .opcaooo22{
+        margin-bottom: -0.5vh;
+    }
+    .opcaooo2{
+        margin-bottom: 0.8vh;
+    }
+    .opcaooop{
+        margin-top: 1vh;
+    }
+    .opcaooox{
+        margin-top: 0vh;
+    }
+    .opcaooo33{
+        margin-top: 1.2vh;
+    }
+    .opcaoools {
+        margin-top: 1.4vh;
+    }
+    .opcaooolc1{
+        margin-top: 0vh;
+    }
+    .opcaooolc2{
+        margin-top: 1vh;
+    }
+    .opcaooolc3{
+        margin-top: 0vh;
+    }
+    .opcaoooll{
+        margin-top: 0.5vh;
+    }
+    .opcaooo{
+        margin-top: 0.5vh;
+    }
+    .close2{
+        font-size: 1.6rem;
+        top: 18.7vh;
+        right: -3vw;
+    }
+    .s1{
+        font-size: 0.65rem;
+    }
+    .fixed-bottom-left{
+        font-size: 0.7rem;
+    }
+    .button2b{
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (min-width: 630px) and (max-width:650px){
+    .slider-frame img{
+        height: 75vh;
+    }
+    .slider-frame, .slider{
+        height: 75vh;
+    }
+    .texto44{
+        font-size: 2rem;
+    }
+    .texto4, .texto44b, .texto4b{
+        font-size: 2.5rem;
+    }
+    .hist h10{
+        font-size: 3rem;
+    }
+    .hist p{
+        font-size: 1rem;
+    }
+    .div111, .div3, .div1, .envios{
+        height: 90vh;
+    }
+    .div11, .slider, .slide img{
+        height: 55vh;
+    }
+    .blog{
+        height: 120vh;
+    }
+    #footer{
+        height: 40vh;
+    }
+    .texto1, .texto1a{
+        font-size: 0.83rem;
+    }
+    .texto1{
+        margin-top: 6vh;
+    }
+    .texto44{
+        margin-top: -70vh;
+    }
+    .opcao{
+        height: 45vh;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 45vh;
+    }
+    .titulomodal{
+        height: 15vh;
+    }
+    .div3, .div1{
+        height: 100vh;
+    }
+    .texto4{
+        margin-top: 20vh;
+        margin-bottom: 5vh;
+    }
+    .texto4b{
+        margin-top: -25vh;
+    }
+    .button2{
+        height: 5vh;
+        margin-top: 0vh;
+        font-size: 0.7rem;
+        line-height: 4.5vh;
+    }
+    .card-title, .card-title2{
+        font-size: 0.95rem;
+    }
+    .ajudablog{
+        font-size: 0.7rem;
+    }
+    .button2b{
+        font-size: 0.8rem;
+    }
+    .envios input{
+        height: 5vh;
+    }
+    .envios textarea{
+        height: 25vh;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -1.8vh;
+    }
+    #footer{
+        height: 45vh;
+    }
+    .logonome{
+        margin-top: -33vh;
+        height: 10vh;
+    }
+    .redesSociais a{
+        width: 4vw;
+        height: 6vh;
+    }
+    .face{
+        margin-left: 1vw;
+    }
+    .xx{
+        margin-top: 4.5vh;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width:420px){
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        margin-left: -0.2vw;
+    }
+    .texto1, .texto1a{
+        font-size: 0.55rem;
+    }
+    .texto1{
+        margin-top: 1.5vh;
+    }
+    .texto{
+        font-size: 0.75rem;
+    }
+    .logonome{
+        margin-top: -128px;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 14vh;
+        margin-left: -1.3vw;
+    }
+    .button2{
+        margin-top: -52vh;
+    }
+    .div11{
+        margin-top: 12vh;
+    }
+    .div1, .div111{
+        height: 28vh;
+    }
+    .blog{
+        height: 50vh;
+    }
+    .texto44{
+        margin-top: -24vh;
+    }
+    .button2b{
+        font-size: 0.8rem;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -8px;
+    }
+    .envios .formulario textarea{
+        margin-top: -0.4vh;
+    }
+    .envios .formulario input[type="submit"] {
+        top: -2vh;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 1.7rem;
+    }
+    #footer{
+        height: 170px;
+    }
+    .xx{
+        margin-top: 2vh;
+    }
+    .div45{
+        margin-left: 10vw;
+        margin-right: 3vw;
+    }
+    .card-title, .card-title2{
+        font-size: 0.586rem;
+    }
+    .texto3334{
+        font-size: 1.2rem;
+    }
+    .textott12{
+        margin-top: 4.8vh;
+    }
+    .textott{
+        margin-top: 5vh;
+    }
+    .opcaooo{
+        margin-top: 2.8vh;
+    }
+    .textottc1, .textottc2{
+        margin-top: 3.5vh;
+    }
+    .textottc3, .textottc4{
+        margin-top: 3.6vh;
+    }
+    .textottcc1{
+        margin-top: 2.7vh;
+    }
+    .textottcc2{
+        margin-top: 3.5vh;
+    }
+    .textottcc3{
+        margin-top: 2.65vh;
+    }
+    .textottp{
+        margin-top: 3.5vh;
+    }
+    .textottx{
+        margin-top: 6.5vh;
+    }
+    .textott128 {
+        margin-top: 5.6vh;
+    }
+    .textott1 {
+        margin-top: 3.2vh;
+    }
+    .textott, .textottp, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottcv1 {
+        width: 33vw;
+        margin-left: 10vw;
+    }
+    .textottcv1{
+        margin-top: 2.7vh;
+    }
+    .opcaooox {
+        margin-top: 0.8vh;
+    }
+    .textottx{
+        margin-left: 10vw;
+    }
+    .opcaoools, .opcaoool{
+        margin-top: 1.5vh;
+    }
+    .opcaoooc, .opcaoooll{
+        margin-top: 1.5vh;
+    }
+    .opcaooolc1{
+        margin-top: 0.8vh;
+    }
+    .opcaooolc2{
+        margin-top: 1.7vh;
+    }
+    .opcaooolc3{
+        margin-top: 0.8vh;
+    }
+    .opcaooo33{
+        margin-top: 1.8vh;
+    }
+    .opcaooop{
+        margin-top: 4.8vh;
+    }
+    .opcaooo2 {
+        margin-bottom: -1.5vh;
+    }
+    .opcaooo22 {
+        margin-bottom: -0.6vh;
+    }
+    .close2 {
+        right: -1vw;
+        top: 19vh;
+        font-size: 2.2rem;
+    }
+    .opcaooo3{
+        margin-top: 1.5vh;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width:420px) and (max-height: 740px){
+    .div111, .div1{
+        height: 35vh;
+    }
+    .textottp {
+        margin-top: 2.5vh;
+    }
+    .textott1{
+        margin-top: 2vh;
+    }
+    .texto1{
+        margin: 3vh;
+    }
+    .opcaooo3 {
+        margin-top: -0.2vh;
+    }
+    .opcaooo33 {
+        margin-top: 0vh;
+    }
+    .textottcv1 {
+        margin-top: 1.3vh;
+    }
+    .div11{
+        margin-top: 13vh;
+    }
+    .opcaooox {
+        margin-top: -0.8vh;
+    }
+    .textottx {
+        margin-top: 3.5vh;
+    }
+    .opcaooop {
+        margin-top: 1.3vh;
+    }
+    .textott12 {
+        margin-top: 3.9vh;
+    }
+    .opcaooo2 {
+        margin-bottom: -1vh;
+    }
+    .textott128 {
+        margin-top: 4.9vh;
+    }
+    .opcaooo22 {
+        margin-bottom: 0.2vh;
+    }
+    .redesSociais a {
+        width: 6vw;
+        height: 4vh;
+    }
+    .textottcc2 {
+        margin-top: 2.5vh;
+    }
+    .opcaooolc2 {
+        margin-top: 0.5vh;
+    }
+    .texto33{
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
+    .texto33x3, .texto33a {
+        font-size: 1.199rem;
+        margin-top: 2vh;
+    }
+    .slide img, .slider {
+        height: 20vh;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 17vh;
+    }
+    .textottc3{
+        margin-top: 2.5vh;
+    }
+    .textottc4{
+        margin-top: 2.4vh;
+        word-break: break-all;
+    }
+    .opcaoooc {
+        margin-top: 0.5vh;
+    }
+    .textott {
+        margin-top: 2.6vh;
+    }
+    .opcaooo {
+        margin-top: 0.5vh;
+    }
+    .opcaoooll {
+        margin-top: 0.6vh;
+    }
+    .textottcc1 {
+        margin-top: 1.3vh;
+    }
+    .textottcc3 {
+        margin-top: 1.5vh;
+    }
+    .opcaooolc3 {
+        margin-top: -0.8vh;
+    }
+    .opcaooolc1 {
+        margin-top: -0.5vh;
+    }
+    .textottc1, .textottc2 {
+        margin-top: 2.5vh;
+    }
+    .opcaoools, .opcaoool {
+        margin-top: 0.5vh;
+    }
+    .texto44{
+        margin-top: -28vh;
+    }
+    .face {
+        margin-right: 0.4vw;
+    }
+}
+
+@media only screen and (max-width: 330px) and (max-height: 550px ){
+    .textott {
+        margin-top: 2vh;
+    }
+    .opcaooo {
+        margin-top: -0.5vh;
+    }
+    .textottc1 {
+        margin-top: 2vh;
+    }
+    .opcaoools {
+        margin-top: -0.8vh;
+    }
+    .textottc2 {
+        margin-top: 2vh;
+    }
+    
+}
+
+@media only screen and (min-width: 470px) and (max-width:500px){
+    .logonome{
+        margin-top: -110px;
+    }
+}
+@media only screen and (min-width: 390px) and (max-width:400px){
+    .logonome{
+        margin-top: -123px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 320px) and (min-height: 658px) and (max-height: 658px){
+    .logonome{
+        margin-top: -22vh;
+    }
+}
+@media only screen and (min-width: 384px) and (max-width: 384px) and (min-height: 640px) and (max-height: 640px){
+    .texto44{
+        margin-top: -28vh;
+    }
+}
+@media only screen and (min-width: 412px) and (max-width: 412px) and (min-height: 732px) and (max-height: 732px){
+    .div11{
+        height: 55vh;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 390px) and (min-height: 844px) and (max-height: 844px){
+    .button2{
+        margin-top: -53vh;
+    }
+    .logonome{
+        margin-top: -120px;
+    }
+}
+@media only screen and (min-width: 412px) and (max-width: 412px) and (min-height: 914px) and (max-height: 914px){
+    .logonome{
+        margin-top: -120px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 320px) and (min-height: 360px) and (max-height: 360px){
+    .slider-frame, .slider-frame img{
+        height: 45vh;
+    }
+    .div3, .envios{
+        height: 60vh;
+    }
+    .blog{
+        height: 70vh;
+    }
+    .div11, .slider{
+        margin-top: 1vh;
+        height: 30vh;
+    }
+    .slide img{
+        height: 25vh;
+    }
+    .opcao{
+        height: 25vh;
+    }
+    .titulomodal{
+        height: 12vh;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 18vh;
+    }
+    .texto4b{
+        margin-top: -18vh;
+        margin-bottom: -5vh ;
+    }
+    .button2{
+        font-size: 0.4rem;
+        height: 3vh;
+        margin-top: -38vh;
+        line-height: 2.5vh;
+    }
+    .envios input{
+        height: 3vh;
+    }
+    .envios textarea{
+        height: 15vh;
+    }
+    .logonome{
+        height: 10vh;
+    }
+    .texto1{
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .bg-modal  .bg-image, .bg-modal2  .bg-image, .bg-modal3  .bg-image {
+        background-size: 100% 100%
+    }
+    .bg-modal, .bg-modal3 {
+        height: 100vh;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    .close2 {
+        right: -5.5vw;
+        top: -5.5vh;
+    }
+    .botoesservico {
+        margin-bottom: -51vh;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        height: 100vh;
+        width: 100vw;
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .slider-frame, .slider-frame img{
+        height: 100vh;
+    }
+    .div111, .envios{
+        height: 120vh;
+    }
+    .blog, .div3, .div1{
+        height: 140vh;
+    }
+    .slider, .div11, .slide img{
+        height: 70vh;
+    }
+    .div11{
+        margin-top: 30vh;
+    }
+    .texto44{
+        margin-top: -95vh;
+    }
+    .texto1, .texto1a{
+        font-size: 1rem;
+    }
+    .texto1 {
+        margin-top: 24vh;
+    }
+    .texto44, .texto4, .texto4b, .texto44b{
+        font-size: 2.5rem;
+    }
+    .hist h10{
+        font-size: 4rem;
+    }
+    .hist p{
+        font-size: 1.4rem;
+    }
+    .opcao{
+        height: 60vh;
+    }
+    .titulomodal{
+        height: 25vh;
+    }
+    .rowblog img, .rowblog2 img{
+        height: 60vh;
+    }
+    .texto4b{
+        margin-top: -40vh;
+    }
+    #footer {
+        height: 190px;
+    }
+    .envios .formulario input{
+        height: 5vh;
+    }
+    .envios .formulario textarea{
+        height: 30vh;
+    }
+    .texto4{
+        margin-top: 25vh;
+    }
+    .button2{
+        font-size: 0.9rem;
+        width: 10vw;
+        height: 6vh;
+        margin-top: 20vh;
+        line-height: 6vh;
+    }
+    .logonome{
+        height: 15vh;
+        margin-top: -135px;
+    }
+    .redesSociais a{
+        height: 13vh;
+        width: 6vw;
+    }
+    .redesSociais a i{
+        font-size: 1.5rem;
+    }
+    .face{
+        margin-left: 1vw;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -6px;
+    }
+    .envios .formulario input[type="submit"] {
+        top: -11px;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 59vh;
+    }
+    .manual-btn, .navigation-auto div{
+        height: 5vh;
+    }
+    .card-title, .card-title2{
+        font-size: 1.3rem;
+    }
+    .ajudablog{
+        font-size: 0.9rem;
+    }
+    .algo{
+        font-size: 1.5rem;
+    }
+    .xx{
+        margin-top: 4vh;
+    }
+    .textott, .textott128, .textottp{
+        width: 25vw;
+        font-size: 0.7rem;
+        margin-left: 5vw;
+        margin-top: 5vh;
+    }
+    .textott12, .textott1{
+        width: 25vw;
+        font-size: 0.7rem;
+        margin-left: 5vw;
+    }
+    .texto3334{
+        font-size: 1rem;
+    }
+    .opcaooo2{
+        height: 40vh;
+        width: 18vw;
+        margin-right: 0;
+    }
+    .opcaooo22{
+        height: 40vh;
+        width: 18vw;
+        margin-top: -5vh;
+        margin-right: 0;
+    }
+    .opcaooo3{
+        height: 40vh;
+        width: 18vw;
+        margin-top: 4vh;
+        margin-right: 0;
+    }
+    .opcaooo, .opcaooox, .opcaooop, .opcaooo33{
+        height: 40vh;
+        width: 18vw;
+        margin-left: 5vw;
+        margin-right: 0;
+        margin-top: 5vh;
+    }
+    .sliderrr, .sliderr, .sliderr3{
+        height: 100%;
+    }
+    .rowwblog img{
+        height: 80vh;
+        width: 40vw;
+    }
+    .navbar-brand img {
+        height: 14vh;
+    }
+  }
+
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+    .button2{
+        margin-top: 30vh;
+    }
+    .xx{
+        margin-top: 5vh;
+    }
+    .logonome {
+        margin-top: -131px;
+    }
+    .navbar.test .navbar-toggler-icon {
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 2000px) {
+    .button2{
+        margin-top: -30vh;
+    }
+    .button2b, .texto1, .texto1a{
+        font-size: 2rem;
+    }
+    .texto44, .texto4, .texto44b, .texto4b{
+        font-size: 6rem;
+    }
+}
+@media only screen and (min-width: 760px) and (max-width: 850px) and (min-height: 1100px) and (max-height: 1200px){
+    .button2 {
+        margin-top: -51vh;
+    }
+    .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .opcaooo33, .opcaooox, .opcaooop, .opcaooo2, .opcaooo22, .opcaooo3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .itensdeservico2 {
+        top: 28.1vh;
+    }
+    .itensdeservico3{
+        top: 27.8vh;
+    }
+    .itensdeservico4 {
+        top: 27.4vh;
+    }
+    .itensdeservico5 {
+        top: 27.4vh;
+    }
+    .redesSociais a {
+        width: 5vw;
+    }
+    .navbar.test .navbar-toggler {
+        font-size: 3rem;
+    }
+    .div1 {
+        height: 38vh;
+    }
+    .opcao {
+        height: 17vh;
+    }
+    .button2{
+        width: 11vw;
+    }
+    .itensdeservico6 {
+        top: 27.6vh;
+    }
+    .itensdeservico7 {
+        top: 28vh;
+    }
+    .itensdeservico21{
+        top: 30.8vh;
+    }
+    .itensdeservico22{
+        top: 30.8vh;
+    }
+    .itensdeservico23{
+        top: 30.8vh;
+    }
+    .itensdeservico24{
+        top: 32.3vh;
+    }
+    .itensdeservico25{
+        top: 32.6vh;
+    }
+    .itensdeservico26{
+        top: 30.4vh;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width:1100px) and (min-height: 1300px) and (max-height:1400px) {
+    .slider-frame img, .slider-frame {
+        height: 45vh;
+    }
+    .test {
+        height: 6vh;
+    }
+    .div111 {
+        height: 45vh;
+    }
+    .slide img, .slider {
+        height: 28vh;
+        width: 43vw;
+    }
+    .div11{
+        margin-top: 4vh;
+    }
+    .texto {
+        font-size: 1.5rem;
+    }
+    .texto44 {
+        margin-bottom: 3vh;
+        font-size: 3.4rem;
+        margin-top: -5vh;
+    }
+    .texto1, .texto1a{
+        font-size: 1.3rem;
+        margin-left: 0vw;
+    }
+    .navigation-auto, .manual-navigation {
+        margin-top: 30vh;
+    }
+    .div3{
+        height: 45vh;
+    }
+    .div1{
+        height: 42vh;
+    }
+    .texto4 {
+        margin-top: 10vh;
+        margin-bottom: 4vh;
+    }
+    .opcao {
+        width: 27vw;
+        height: 22vh;
+    }
+    .titulomodal {
+        width: 27vw;
+        height: 9vh;
+    }
+    .hist p {
+        font-size: 1.5em;
+    }
+    .hist h10 {
+        font-size: 4em;
+    }
+    .blog {
+        width: 100vw;
+        height: 50vh;
+    }
+    .button2 {
+        margin-top: -5vh;
+        line-height: 2vh;
+    }
+    .card-body {
+        height: 40vh;
+    }
+    .div45 {
+        margin-right: 3vw;
+    }
+    .texto4b {
+        margin-top: -10vh;
+    }
+    .envios {
+        height: 45vh;
+    }
+    #footer{
+        height: 25vh;
+    }
+    .envios input {
+        height: 3vh;
+    }
+    .envios textarea {
+        height: 13vh;
+    }
+    .imagemblogd{
+        width: 25vw;
+        height: 19vh;
+    }
+    .card-title{
+        font-size: 1.45rem;
+    }
+    .ajudablog {
+        width: 24vw;
+    }
+    .redesSociais a {
+        height: 5vh;
+        width: 6vw;
+        margin: 0 0.5vw 2vh 0;
+    }
+    .texto44b {
+        margin-bottom: 2vh;
+    }
+    .envios input, .envios textarea {
+        width: 46vw;
+    }
+    .logonome {
+        margin-top: -15vh;
+        width: 28vw;
+        height: 7vh;
+    }
+    .xdx {
+        margin-top: 2vh;
+    }
+    .opcaooo, .opcaooo2, .opcaooo3, .opcaooo22, .opcaooox, .opcaoool, .opcaoooc, .opcaoooll, .opcaoools, .opcaooo33, .opcaooop, .opcaooolc1, .opcaooolc2, .opcaooolc3 {
+        height: 24vh;
+        width: 27vw;
+    }
+    .bg-modal, .bg-modal2, .bg-modal3 {
+        height: 50vh;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        width: 90vw;
+    }
+    .close2 {
+        font-size: 4rem;
+        top: -3vw;
+        right: -0.5vw;
+    }
+    .s1 {
+        width: 15vw;
+        font-size: 2.2rem;
+    }
+    .sliderr3 {
+        width: 71vw;
+    }
+    .texto33, .texto33x3, .texto33a {
+        font-size: 3rem;
+        margin-top: 3vh;
+    }
+    .textott, .textott128, .textott12, .textottp, .textott1, .textottx, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottcv1 {
+        font-size: 1.5rem;
+        width: 27vw;
+    }
+    .itensdeservico1{
+        margin-top: -0.5vh;
+    }
+    .itensdeservico2{
+        margin-top: -1.8vh;
+    }
+    .itensdeservico3{
+        margin-top: -1.3vh;
+    }
+    .itensdeservico4 {
+        margin-top: -3.1vh;
+    }
+    .itensdeservico5 {
+        margin-top: -3.1vh;
+    }
+    .itensdeservico6 {
+        margin-top: -3.1vh;
+    }
+    .itensdeservico7 {
+        margin-top: -0.45vh;
+    }
+    .itensdeservico8 {
+        margin-top: -2.6vh;
+    }
+    .textottcc3{
+        margin-top: 5vh;
+    }
+    .sliderr{
+        width: 71vw;
+    }
+    .itensdeservico21{
+        margin-top: 4vh;
+    }
+    .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .opcaooo33, .opcaooox, .opcaooop, .opcaooo2, .opcaooo22, .opcaooo3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .itensdeservico22{
+        margin-top: 2.8vh;
+    }
+    .itensdeservico23{
+        margin-top: 4vh;
+    }
+    .texto3334 {
+        font-size: 2.5rem;
+        margin-top: 3vh;
+    }
+    .itensdeservico24 {
+        margin-top: 2.5vh;
+    }
+    .textott12{
+        font-size: 1.3rem;
+    }
+    .itensdeservico25 {
+        margin-top: -0.65vh;
+    }
+    .itensdeservico26 {
+        margin-top: 2.5vh;
+    }
+    .textott1{
+        font-size: 1.4rem;
+    }
+    .navigation-auto, .manual-navigation {
+        width: 47vw;
+        margin-top: 23vh;
+    }
+    .manual-btn, .navigation-auto div {
+        width: 2.5vw;
+        height: 3vh;
+    }
+    .navbar.test .navbar-toggler {
+        font-size: 2rem;
+        transform: scale(1.5);
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-20%);
+    }
+
+}
+@media only screen and (min-width: 900px) and (max-width:1000px) and (min-height: 1300px) and (max-height:1400px) {
+    .texto44{
+        font-size: 3.5rem;
+        margin-top: -29vh;
+    }
+    .texto4{
+        font-size: 3.5rem;
+        margin-top: 7vh;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 2.5rem;
+    }
+    .texto4b{
+        font-size: 3.5rem;
+        margin-top: -11vh;
+        margin-bottom: 1vh;
+    }
+    .slider-frame, .slider-frame img{
+        height: 30vh;
+    }
+    .div111{
+        height: 35vh;
+    }
+    .texto1, .texto1a {
+        font-size: 1.2rem;
+    }
+    .div11{
+        margin-right: 6vw;
+        margin-left: -3vw;
+    }
+    .div45{
+        margin-left: 2vw;
+    }
+    .div11, .slide img, .slider {
+        height: 20vh;
+    }
+    .texto1 {
+        margin-top: -2vh;
+    }
+    .div3{
+        height: 40vh;
+    }
+    .div1{
+        height: 37vh;
+    }
+    .opcao {
+        height: 19vh;
+        width: 29vw;
+    }
+    .titulomodal {
+        width: 29vw;
+    }
+    .hist h10 {
+        font-size: 4rem;
+    }
+    .hist p{
+        font-size: 1.2rem;
+    }
+    .rowblog img, .rowblog2 img {
+        height: 15vh;
+    }
+    .card-title, .card-title2 {
+        font-size: 1.2rem;
+    }
+    .ajudablog {
+        margin-top: -1vh;
+        font-size: 0.8rem;
+    }
+    .button2 {
+        margin-left: 0.5vw;
+        margin-top: -53vh;
+        font-size: 1rem;
+        line-height: 1.8vh;
+    }
+    .button2b {
+        font-size: 1.3rem;
+    }
+    .algo {
+        font-size: 2rem;
+    }
+    .logonome {
+        height: 8vh;
+        width: 26vw;
+        margin-top: -11vh;
+    }
+    .sps {
+        font-size: 0.9rem;
+    }
+    .redesSociais a i {
+        font-size: 1.7rem;
+    }
+    .redesSociais a {
+        width: 6vw;
+        height: 4vh;
+    }
+    .redesSociais {
+        margin-top: -1.5vh;
+    }
+    #footer{
+        height: 18vh;
+    }
+    .texto33, .texto33x3, .texto33a {
+        font-size: 2.6rem;
+    }
+    .close2 {
+        right: -1.5vw;
+        top: 18.5vh;
+        font-size: 4rem;
+    }
+    .s1 {
+        font-size: 2rem;
+    }
+    .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1, .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .opcaooo, .opcaoools, .opcaooo33, .opcaooox, .opcaooop, .opcaooo2, .opcaooo22, .opcaooo3, .opcaoool, .opcaoooll, .opcaooolc1, .opcaooolc3, .opcaooolc2, .opcaoooc{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottcv1, .textottp, .textottx, .textott128, .textott1 {
+        font-size: 1.3rem;
+        margin-left: 9vw;
+    }
+    .textott12{
+        font-size: 1.2rem;
+        margin-left: 9vw;
+    }
+    .itensdeservico1{
+        top: 31vh;
+    }
+    .itensdeservico2, .itensdeservico3, .itensdeservico4, .itensdeservico5 {
+        top: 30.5vh;
+    }
+    .itensdeservico6 {
+        top: 29.5vh;
+    }
+    .itensdeservico7{
+        top: 31.2vh;
+    }
+    .itensdeservico8{
+        top: 29.5vh;
+    }
+    .texto {
+        font-size: 1.3em;
+    }
+    .texto3334{
+        font-size: 2rem;
+    }
+    .itensdeservico21{
+        top: 30vh;
+    }
+    .itensdeservico22 {
+        top: 28.9vh;
+    }
+    .itensdeservico23 {
+        top: 30.6vh;
+    }
+    .itensdeservico24{
+        top: 32vh;
+    }
+    .itensdeservico25{
+        top: 31.4vh;
+    }
+    .itensdeservico26{
+        top: 29vh;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width:550px) and (min-height: 700px) and (max-height:750px) {
+    .slider-frame, .slider-frame img{
+        height: 30vh;
+    }
+    .div111 {
+        height: 38vh;
+    }
+    .texto44{
+        margin-top: -29vh;
+    }
+    .div11{
+        margin-left: -1vw;
+        margin-right: 1vw;
+    }
+    .div11, .slide img, .slider {
+        height: 20vh;
+    }
+    .div3, .div1, .envios{
+        height: 42vh;
+    }
+    .blog{
+        height: 45vh;
+    }
+    .div11{
+        margin-top: 14vh;
+    }
+    #footer{
+        height: 23vh;
+    }
+    .logonome {
+        width: 28vw;
+        height: 8vh;
+        margin-top: -15.5vh;
+    }
+    .algo{
+        font-size: 1rem;
+    }
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -1.4vh;
+    }
+    .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1, .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .opcaooo, .opcaoools, .opcaooo33, .opcaooox, .opcaooop, .opcaooo2, .opcaooo22, .opcaooo3, .opcaoool, .opcaoooll, .opcaooolc1, .opcaooolc3, .opcaooolc2, .opcaoooc{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .opcao {
+        height: 20vh;
+    }
+    .texto4 {
+        margin-top: 7vh;
+        margin-bottom: 3vh;
+    }
+    .texto4b {
+        margin-top: -9vh;
+        margin-bottom: -1vh;
+    }
+    .texto1 {
+        margin-top: 4vh;
+    }
+    .redesSociais a {
+        height: 4vh;
+    }
+    .close2 {
+        right: -2vw;
+        top: 18vh;
+    }
+    .rowblog img, .rowblog2 img {
+        height: 16vh;
+    }
+    .button2 {
+        margin-top: -51vh;
+        font-size: 0.6rem;
+    }
+    .itensdeservico1, .itensdeservico2, .itensdeservico3, .itensdeservico4, .itensdeservico5, .itensdeservico6, .itensdeservico7, .itensdeservico8, .itensdeservico21, .itensdeservico23, .itensdeservico26 {
+        top: 30.7vh;
+    }
+    .itensdeservico22{
+        top: 30.5vh;
+    }
+    .itensdeservico24, .itensdeservico25{
+        top: 32.8vh;
+    }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .algo {
+        font-size: 3.5rem;
+        margin-top: -9vh;
+    }
+}
+
+@media screen and (min-width: 2560px) and (min-height: 1440px) {
+    .texto44, .texto4, .texto4b, .texto44b {
+        font-size: 6.5rem;
+    }
+    .texto1, .texto1a{
+        font-size: 3rem;
+    }
+    .div1 {
+        height: 100vh;
+    }
+    .hist h10 {
+        margin: 0;
+        font-size: 10rem;
+    }
+    .hist p {
+        margin: 0;
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (min-width: 600px) and (min-height: 1900px) {
+    .texto1, .texto1a{
+        margin-left: -2vw;
+        font-size: 1.5rem;
+    }
+    .div11{
+        margin-top: 10.5vh;
+        margin-right: 2vw;
+    }
+    .texto1{
+        margin-top: -2vh;
+    }
+    .texto4{
+        font-size: 4rem;
+        margin-top: 7vh;
+    }
+    .texto4b{
+        margin-top: -8vh;
+        margin-bottom: 3vh;
+        font-size: 4rem;
+    }
+    .texto44b{
+        font-size: 4rem;
+    }
+    .texto44{
+        font-size: 4rem;
+        margin-top: -25vh;
+    }
+    .card-title, .card-title2 {
+        font-size: 1.3rem;
+    }
+    .ajudablog {
+        margin-top: 1vh;
+        font-size: 1rem;
+    }
+    .hist h10 {
+        font-size: 4rem;
+    }
+    .hist p{
+        font-size: 1.2rem;
+    }
+    .button2{
+        width: 10vw;
+        margin-top: -57vh;
+        font-size: 1rem;
+        line-height: 1.8vh;
+    }
+    .logonome{
+        margin-top: -13.4vh;
+    }
+    .algo {
+        margin-top: -4vh;
+        font-size: 2.4rem;
+    }
+    .sps {
+        font-size: 1.5rem;
+    }
+    .redesSociais a i {
+        font-size: 2rem;
+    }
+    .xx {
+        font-size: 2rem;
+    }
+    .redesSociais {
+        margin-top: -1.4vh;
+    }
+    .button2b{
+        margin-top: 3vh;
+        font-size: 2rem;
+    }
+    .face {
+        margin-left: 0.5rem;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 14vh;
+    }
+    .texto {
+        font-size: 1.5rem;
+    }
+    .navbar.test .navbar-nav .nav-link {
+        font-size: 4rem;
+    }
+    .navbar.test .navbar-toggler {
+        font-size: 4rem;
+        margin-right: 2vw;
+    }
+    .texto33, .texto33x3, .texto33a {
+        font-size: 3.35rem;
+    }
+    .textott, .textott12, .textott1, .textott128, .textottp, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3, .textottcv1 {
+        font-size: 1.6rem;
+    }
+    .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1, .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .opcaooo, .opcaoools, .opcaooo33, .opcaooox, .opcaooop, .opcaooo2, .opcaooo22, .opcaooo3, .opcaoool, .opcaoooll, .opcaooolc1, .opcaooolc3, .opcaooolc2, .opcaoooc{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .s1 {
+        font-size: 2.5rem;
+    }
+    .itensdeservico1{
+        margin-top: 2.5vh;
+    }
+    .itensdeservico2, .itensdeservico3{
+        margin-top: 3vh;
+    }
+    .itensdeservico4, .itensdeservico5, .itensdeservico6{
+        margin-top: 2.3vh;
+    }
+    .itensdeservico7{
+        margin-top: 3.1vh;
+    }
+    .itensdeservico8{
+        margin-top: 2.3vh;
+    }
+    .close2{
+        font-size: 4rem;
+        top: 20vh;
+        right: -0.7vw;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 380px) {
+    .div111 {
+        height: 25vh;
+    }
+    .texto44 {
+        margin-top: -180px;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 12vh;
+        width: 47vw;
+    }
+    .close2 {
+        right: -3vw;
+        top: 19.3vh;
+    }
+    .logonome {
+        margin-top: -142px;
+    }
+    .textottp, .textottcv1, .textottx, .textott12, .textott128, .textott1, .textott, .textottc1, .textottc2, .textottc3, .textottc4, .textottcc1, .textottcc2, .textottcc3{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .opcaooo, .opcaoools, .opcaooo33, .opcaooox, .opcaooop, .opcaooo2, .opcaooo22, .opcaooo3, .opcaoool, .opcaoooll, .opcaooolc1, .opcaooolc3, .opcaooolc2, .opcaoooc{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .div11{
+        margin-top: 10vh;
+        margin-right: 0vw;
+    }
+    .slider, .slide img {
+        height: 15vh;
+    }
+    .face {
+        margin-right: 0.5vw;
+    }
+    .itensdeservico1 {
+        top: 30.5vh;
+    }
+    .itensdeservico2 {
+        top: 30.5vh;
+    }
+    .itensdeservico3 {
+        top: 30.5vh;
+    }
+    .itensdeservico4 {
+        top: 30.5vh;
+    }
+    .itensdeservico5 {
+        top: 30.5vh;
+    }
+    .itensdeservico6 {
+        top: 30.5vh;
+    }
+    .itensdeservico7 {
+        top: 30.5vh;
+    }
+    .itensdeservico8 {
+        top: 30.5vh;
+    }
+    .itensdeservico21{
+        top: 30.5vh;
+    }
+    .itensdeservico22{
+        top: 30.5vh;
+    }
+    .itensdeservico23{
+        top: 30.5vh;
+    }
+    .itensdeservico24 {
+        top: 31.9vh;
+    }
+    .itensdeservico25{
+        top: 31.9vh;
+    }
+    .itensdeservico26{
+        top: 30.5vh;
+    }
+    .fixed-bottom-left {
+        font-size: 1rem;
+    }
+    .button2x {
+        width: 17vw;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 380px) and (max-height:700px) {
+    .div111 {
+        height: 28vh;
+    }
+    .texto44 {
+        margin-top: -23vh;
+    }
+    .div11 {
+        margin-top: 11vh;
+    }
+    .texto1 {
+        margin-top: 1vh;
+    }
+    .itensdeservico25 {
+        top: 32.1vh;
+    }
+    .itensdeservico24 {
+        top: 31.7vh;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) and (min-height:590px) and (max-height: 700px) {
+    .texto {
+        font-size: 1.6rem;
+    }
+    .titulomodal {
+        width: 24vw;
+        height: 18vh;
+    }
+    .opcao {
+        width: 24vw;
+    }
+    .texto44 {
+        font-size: 3rem;
+    }
+    .div1 {
+        height: 95vh;
+    }
+    .hist h10 {
+        font-size: 5em;
+    }
+    .hist p {
+        margin: 0;
+        font-size: 1.5em;
+    }
+    .redesSociais a {
+        width: 5vw;
+    }
+    .card-title {
+        font-size: 1.3rem;
+    }
+    .ajudablog {
+        width: 20vw;
+        font-size: 0.9rem;
+    }
+    .logonome {
+        margin-top: -27vh;
+    }
+    .manual-btn, .navigation-auto div {
+        width: 2vw;
+        height: 4vh;
+    }
+}
+
+@media only screen and (max-width: 330px) and (max-height:600px) {
+    #footer {
+        height: 185px;
+    }
+}
+
+@media only screen and (max-width: 330px) and (max-height:500px) {
+    #footer {
+        height: 182px;
+    }
+    .texto44 {
+        margin-top: -28vh;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        height: 50vh;
+    }
+    .button2 {
+        margin-top: -51vh;
+    }
+    .div11, .slide img, .slider {
+        width: 45vw;
+        height: 20vh;
+    }
+    .div11 {
+        margin-top: 7vh;
+    }
+    .texto4b {
+        margin-top: -9vh;
+        margin-bottom: -4vh;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 790px) and (min-height: 400px) and (max-height: 500px) and (orientation: landscape){
+    .slider-frame .fotos img, .slider-frame {
+        height: 100vh;
+    }
+    .slider{
+        height: 70vh;
+    }
+    .blog, .div3, .div1 {
+        height: 100vh;
+    }
+    .div111, .envios {
+        height: 100vh;
+    }
+    .redesSociais a {
+        width: 5vw;
+        height: 9vh;
+        margin-bottom: 5vh;
+        margin-top: 1.5vh;
+    }
+    .redesSociais {
+        margin-top: 2.5vh;
+    }
+    .texto44, .texto4, .texto4b, .texto44b {
+        font-size: 2.2rem;
+    }
+    .texto44 {
+        margin-top: -81vh;
+    }
+    .div11 {
+        margin-top: 21vh;
+    }
+    .texto1 {
+        margin-top: 14vh;
+    }
+    .opcao {
+        height: 50vh;
+        width: 26vw;
+    }
+    .titulomodal {
+        width: 26vw;
+        height: 20vh;
+    }
+    .card-title, .card-title2 {
+        font-size: 1.08rem;
+    }
+    .ajudablog {
+        font-size: 0.8rem;
+    }
+    .button2 {
+        margin-top: -6vh;
+    }
+    .hist h10 {
+        font-size: 3rem;
+    }
+    .rowblog img, .rowblog2 img {
+        height: 40vh;
+        width: 25vw;
+    }
+    .manual-navigation, .navigation-auto {
+        margin-top: 59vh;
+    }
+    .texto4b {
+        margin-top: -30vh;
+        margin-bottom: -2vh;
+    }
+    .bg-modal, .bg-modal3 {
+        height: 100vh;
+        margin-top: 0;
+    }
+    .bg-modal .bg-image, .bg-modal3 .bg-image, .bg-modal2 .bg-image {
+        height: 100vh;
+        width: 100vw;
+    }
+    .close2 {
+        right: -5.5vw;
+        top: -5.5vh;
+    }
+    .botoesservico {
+        margin-bottom: -51vh;
+    }
+    .texto33, .texto33x3, .texto33a, .texto3334 {
+        margin-top: 4vh;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 550px) and (min-height: 1100px) and (max-height: 1300px){
+    .logonome {
+        margin-top: -8.5vh;
+    }
+    #footer {
+        width: 100vw;
+        height: 14vh;
+    }
+    .redesSociais a {
+        width: 5vw;
+        height: 2.5vh;
+
+    }
+    .redesSociais {
+        margin-left: -2vw;
+        margin-top: -1vh;
+    }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1000px) and (min-height: 1900px) and (max-height: 2000px){
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: 0vh;
+    }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 400px) and (min-height: 630px) and (max-height: 650px) {
+    .envios .formulario div:nth-child(-n+3) {
+        margin-top: -1.86vh;
+    }
+}
+
+@media only screen and (max-width: 650px) and (max-height: 370px) and (orientation: landscape){
+    .card-title, .card-title2 {
+        font-size: 0.91rem;
+    }
+    .ajudablog {
+        font-size: 0.7rem;
+    }
+    .navbar-brand img {
+        height: 14vh;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 850px) and (orientation: landscape){
+    .slider-frame .fotos img, .slider-frame {
+        height: 100vh;
+    }
+    #footer {
+        height: 220px;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1300px) and (min-height: 700px) and (max-height: 750px){
+    .texto {
+        color: white;
+        font-size: 1.9rem;
+        font-family: 'GlacialIndifferenceRegular';
+    }
+    #footer {
+        height: 43vh;
+    }
+    .xdx {
+        margin-top: 2vh;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 1950px) and (min-height: 1040px) and (max-height: 1100px){
+    .navbar-brand {
+        margin-right: 6rem !important;
+    }
+    .navbar-brand img{
+        height: 10vh;
+        width: 13vw;
+    }
+    .test{
+        font-size: 2rem;
+    }
+    .button2 {
+        margin-top: -6vh;
+        font-size: 2rem;
+    }
+    .card-title, .card-title2{
+        font-size: 2.4rem;
+    }
+    .ajudablog{
+        font-size: 1.4rem;
+    }
+    .button2b{
+        margin-top: 5vh;
+        font-size: 3rem;
+    }
+    .redesSociais{
+        font-size: 1.5rem;
+    }
+    .xx{
+        font-size: 3rem;
+    }
+    .hist h10{
+        font-size: 10rem;
+    }
+    .hist p{
+        font-size: 2.5rem;
+    }
+    .div1 {
+        height: 100vh;
+    }
+    .texto{
+        font-size: 2.5rem;
+    }
+    .fixed-bottom-left {
+        font-size: 3rem;
+    }
+    .texto33a, .texto33, .texto33x3{
+        font-size: 4rem;
+    }
+    .close2{
+        font-size: 4rem;
+    }
+    .s1{
+        font-size: 2.2rem;
+    }
+    .textott, .textottc1, .textott128, .textott1, .textott12, .textott129, .textottc2, .textottcc2, .textottcc1, .textottcc2, .textottc1, .textottcv1, .textottc3, .textottc4, .textottcc3, .textottp, .textottx{
+        font-size: 2rem;
+    }
+    .texto3334{
+        font-size: 3.5rem;
+    }
+    .itensdeservico25 {
+        margin-top: -4vh;
+    }
+    .itensdeservico24{
+        margin-top: -5vh;
+    }
+}
+
+@media (min-width: 2500px) and (max-width: 2600px) and (min-height: 1400px) and (max-height: 1500px){
+    .navbar-brand {
+        margin-right: 6rem !important;
+    }
+    .navbar-brand img{
+        height: 10vh;
+        width: 13vw;
+    }
+    .test{
+        font-size: 2rem;
+    }
+    .button2 {
+        margin-top: -6vh;
+        font-size: 2rem;
+    }
+    .card-title, .card-title2{
+        font-size: 2.4rem;
+    }
+    .ajudablog{
+        font-size: 1.4rem;
+    }
+    .button2b{
+        margin-top: 5vh;
+        font-size: 3rem;
+    }
+    .redesSociais{
+        font-size: 1.5rem;
+    }
+    .xx{
+        font-size: 3rem;
+    }
+    .hist h10{
+        font-size: 10rem;
+    }
+    .hist p{
+        font-size: 2.5rem;
+    }
+    .div1 {
+        height: 100vh;
+    }
+    .texto{
+        font-size: 2.5rem;
+    }
+    .fixed-bottom-left {
+        font-size: 3rem;
+    }
+    .texto33a, .texto33, .texto33x3{
+        font-size: 4rem;
+    }
+    .close2{
+        font-size: 4rem;
+    }
+    .s1{
+        font-size: 2.2rem;
+    }
+    .textott, .textottc1, .textott128, .textott1, .textott12, .textott129, .textottc2, .textottcc2, .textottcc1, .textottcc2, .textottc1, .textottcv1, .textottc3, .textottc4, .textottcc3, .textottp, .textottx{
+        font-size: 2rem;
+    }
+    .texto3334{
+        font-size: 3.5rem;
+    }
+    .itensdeservico25 {
+        margin-top: -4vh;
+    }
+    .itensdeservico24{
+        margin-top: -5vh;
+    }
+    .algo{
+        font-size: 5rem;
+    }
+    .sps{
+        font-size: 2rem;
+    }
+    .xdx{
+        margin-top: 7vh;
+    }
+    .logonome {
+        margin-top: -28vh;
+    }
+}
